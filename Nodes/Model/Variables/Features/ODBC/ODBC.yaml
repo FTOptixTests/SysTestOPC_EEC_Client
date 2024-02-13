@@ -1,0 +1,79 @@
+Name: ODBC
+Type: FolderType
+Children:
+- Name: UseODBCverification_flag
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: LoggedTagValue
+  Id: g=7d3513166984ef42da62dacbd4b7a366
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: PEExpectedPattern
+  Id: g=742d0820ee013cedcf8d25ccef72eae0
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: ODBC_Enabler
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Children:
+  - Name: ExpressionEvaluator1
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "{0}==1 && {1}==1 && {2}==1"
+    - Name: ns=10;Source0
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../LoggedTagValue"
+    - Name: ns=10;Source1
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../PEExpectedPattern"
+    - Name: ns=10;Source2
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../UseODBCverification_flag"
+- Name: RecordsInDB
+  Id: g=1ba20038f1a11358d8a680517ac9950c
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "zzzz"
+- Name: PE1_ODBC
+  Id: g=13a1c06b44309b72588b8a058fd60322
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: PE2_ODBC
+  Id: g=126b58fdfe6f12c2a53dc9bb19df93a7
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: PE3_ODBC
+  Id: g=a1bb644787124d68de53062b0938ce34
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: PE4_ODBC
+  Id: g=f42412185b379de814d664fb202fbdbc
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
