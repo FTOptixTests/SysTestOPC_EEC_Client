@@ -184,7 +184,7 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: ScatteredREALs3
+  Name: ns=49;ScatteredREALs3
   Id: g=2d63a0d58dfc96422d5260b89eb33205
   Supertype: Structure
   StructDefinition: 
@@ -580,7 +580,7 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: ScatteredSTRINGs3
+  Name: ns=49;ScatteredSTRINGs3
   Id: g=e8e027dc353d19bdc948ea0b999ccfe2
   Supertype: Structure
   StructDefinition: 
@@ -1014,7 +1014,7 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: ScreenToScrew_Expected_Type043
+  Name: ns=49;ScreenToScrew_Expected_Type043
   Id: g=20158969bf80de7205f357bcf2ba3589
   Supertype: Structure
   StructDefinition: 

@@ -1171,10 +1171,10 @@ Children:
               Type: BaseDataVariableType
               DataType: String
               Value: "L5"
-- Name: ScatteredREALs2
+- Name: ns=49;ScatteredREALs2
   Id: g=1b688174fb9d7cf5499bbe9e9a5697f0
   Supertype: TagStructure
-  DataType: ScatteredREALs2
+  DataType: ns=49;ScatteredREALs2
   ValueRank: Any
   Children:
   - Name: R00
@@ -2367,10 +2367,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "TRIP_Input"
-- Name: ScatteredSTRINGs2
+- Name: ns=49;ScatteredSTRINGs2
   Id: g=6cc66e1a20e3a261bf00bdfc5b38c4df
   Supertype: TagStructure
-  DataType: ScatteredSTRINGs2
+  DataType: ns=49;ScatteredSTRINGs2
   ValueRank: Any
   Children:
   - Name: S00
@@ -3081,10 +3081,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Feedback"
-- Name: ScreenToScrew_Expected_Type042
+- Name: ns=49;ScreenToScrew_Expected_Type042
   Id: g=1807c81566f44b99e3522b7617c0ff26
   Supertype: TagStructure
-  DataType: ScreenToScrew_Expected_Type042
+  DataType: ns=49;ScreenToScrew_Expected_Type042
   ValueRank: Any
   Children:
   - Name: Tag00

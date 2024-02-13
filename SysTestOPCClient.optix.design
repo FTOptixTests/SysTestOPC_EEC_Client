@@ -60,6 +60,24 @@ Project:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic
    Version: 3.0
+  18:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#urn:DESKTOP-967M8HV:FactoryTalkOptixHMI:FTOptixApplication'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
+  19:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#b8f6b84affbcadc5cf08938326c70b9a#7181ebf12a47bfac9347b12e3b3f5303#Uniqo_EOI'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
+  20:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#b8f6b84affbcadc5cf08938326c70b9a#18d285e5832d698339a2ad059b917ab5#Uniqo_EOI'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
+  21:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#b8f6b84affbcadc5cf08938326c70b9a#urn:VV5:FactoryTalkOptixHMI:FTOptixApplication'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
+  22:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#b8f6b84affbcadc5cf08938326c70b9a#Temporary'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
+  23:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#b8f6b84affbcadc5cf08938326c70b9a#SysTestOPCApp'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
  Statistics:
   TotalNodeCount: 22
   Objects: 5

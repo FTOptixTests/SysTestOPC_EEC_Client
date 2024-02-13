@@ -5,7 +5,7 @@ Children:
 - Name: ServerEndpointURL
   Type: BaseDataVariableType
   DataType: String
-  Value: "opc.tcp://192.168.1.215:59100"
+  Value: "opc.tcp://192.168.107.215:59100"
 - Name: MinimumMessageSecurityMode
   Type: BaseDataVariableType
   DataType: MessageSecurityModeEnum
@@ -63,7 +63,7 @@ Children:
   Type: BaseObjectType
   Children:
   - Name: ns=8;SysTestOPCApp
-    Id: ns=8;g=163cf355fa293a8e206a4294f715c51b
+    Id: ns=8;g=9290679bff61c895b04455c39f279749
     Type: ProjectFolder
     DisplayName: {"LocaleId":"","Text":"SysTestOPCApp"}
     Children:

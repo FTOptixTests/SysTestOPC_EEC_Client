@@ -2,7 +2,7 @@ Name: DataTypes
 Type: FolderType
 Children:
 - Class: DataType
-  Name: ScreenToScrew_Expected_Type04
+  Name: ns=49;ScreenToScrew_Expected_Type04
   Id: g=bbeef0adb1cd46d56c0e1a2e95ebfae6
   Supertype: Structure
   StructDefinition: 
@@ -4513,7 +4513,7 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: ScatteredREALs1
+  Name: ns=49;ScatteredREALs1
   Id: g=132b5f0df39f68306ef0ed1a02e0b4d3
   Supertype: Structure
   StructDefinition: 
@@ -5085,7 +5085,7 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: ScatteredSTRINGs
+  Name: ns=49;ScatteredSTRINGs
   Id: g=cee9c7fb6d2c177b877fe7e80129b5aa
   Supertype: Structure
   StructDefinition: 

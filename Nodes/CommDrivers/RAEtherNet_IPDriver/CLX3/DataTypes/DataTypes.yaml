@@ -825,7 +825,7 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: ScatteredREALs2
+  Name: ns=49;ScatteredREALs2
   Id: g=518e7b46d2eefc997510e03fb2f73c86
   Supertype: Structure
   StructDefinition: 
@@ -1358,7 +1358,7 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: ScatteredSTRINGs2
+  Name: ns=49;ScatteredSTRINGs2
   Id: g=783b6e427890866628e03369bf3d6b34
   Supertype: Structure
   StructDefinition: 
@@ -1856,7 +1856,7 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: ScreenToScrew_Expected_Type042
+  Name: ns=49;ScreenToScrew_Expected_Type042
   Id: g=11fc9744202f120ed34026e773a98a65
   Supertype: Structure
   StructDefinition: 

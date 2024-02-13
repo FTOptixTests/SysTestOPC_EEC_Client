@@ -1,10 +1,10 @@
 Name: VariableTypes
 Type: FolderType
 Children:
-- Name: ScreenToScrew_Expected_Type04
+- Name: ns=49;ScreenToScrew_Expected_Type04
   Id: g=bf761f7a579d0d829da4eafee68f99f0
   Supertype: TagStructure
-  DataType: ScreenToScrew_Expected_Type04
+  DataType: ns=49;ScreenToScrew_Expected_Type04
   ValueRank: Any
   Children:
   - Name: Tag00
@@ -13469,10 +13469,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "STRING"
-- Name: ScatteredREALs1
+- Name: ns=49;ScatteredREALs1
   Id: g=12eb1d50db5cc232c5147630ff817fbd
   Supertype: TagStructure
-  DataType: ScatteredREALs1
+  DataType: ns=49;ScatteredREALs1
   ValueRank: Any
   Children:
   - Name: R00
@@ -14279,10 +14279,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "L26"
-- Name: ScatteredSTRINGs
+- Name: ns=49;ScatteredSTRINGs
   Id: g=988f8ef8c8fcdc89df8a96e622aabe0c
   Supertype: TagStructure
-  DataType: ScatteredSTRINGs
+  DataType: ns=49;ScatteredSTRINGs
   ValueRank: Any
   Children:
   - Name: S00

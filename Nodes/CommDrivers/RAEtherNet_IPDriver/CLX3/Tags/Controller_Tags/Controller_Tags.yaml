@@ -5447,8 +5447,8 @@ Children:
     DataType: String
     Value: "ScatteredLINT_CT24"
 - Name: ScatteredREAL_CS
-  Type: ScatteredREALs2
-  DataType: ScatteredREALs2
+  Type: ns=49;ScatteredREALs2
+  DataType: ns=49;ScatteredREALs2
   Children:
   - Name: R00
     Type: RAEtherNetIPTag
@@ -6287,8 +6287,8 @@ Children:
     DataType: String
     Value: "ScatteredSINT_CT24"
 - Name: ScatteredSTRING_CS
-  Type: ScatteredSTRINGs2
-  DataType: ScatteredSTRINGs2
+  Type: ns=49;ScatteredSTRINGs2
+  DataType: ns=49;ScatteredSTRINGs2
   Children:
   - Name: S00
     Type: RAEtherNetIPTag

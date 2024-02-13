@@ -2,8 +2,8 @@ Name: 'Program:S22_ScreenToScrew'
 Type: FolderType
 Children:
 - Name: Actual_ScrnToScrewPBWrite_Type04
-  Type: ScreenToScrew_Expected_Type04
-  DataType: ScreenToScrew_Expected_Type04
+  Type: ns=49;ScreenToScrew_Expected_Type04
+  DataType: ns=49;ScreenToScrew_Expected_Type04
   Children:
   - Name: Tag00
     Type: RAEtherNetIPTag
@@ -195,8 +195,8 @@ Children:
     DataType: String
     Value: "Program:S22_ScreenToScrew.Cmd_ScrnToScrwPBWrite_Type07Tag06"
 - Name: Expected_ScrnToScrewPBWrite_Type04
-  Type: ScreenToScrew_Expected_Type04
-  DataType: ScreenToScrew_Expected_Type04
+  Type: ns=49;ScreenToScrew_Expected_Type04
+  DataType: ns=49;ScreenToScrew_Expected_Type04
   Children:
   - Name: Tag00
     Type: RAEtherNetIPTag

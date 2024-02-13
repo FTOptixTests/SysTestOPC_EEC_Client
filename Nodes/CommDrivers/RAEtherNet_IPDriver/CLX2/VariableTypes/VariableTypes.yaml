@@ -871,10 +871,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "B26"
-- Name: ScreenToScrew_Expected_Type041
+- Name: ns=49;ScreenToScrew_Expected_Type041
   Id: g=c93b8b9cc5a90ea72f73a13936ca214e
   Supertype: TagStructure
-  DataType: ScreenToScrew_Expected_Type041
+  DataType: ns=49;ScreenToScrew_Expected_Type041
   ValueRank: Any
   Children:
   - Name: Tag00
@@ -1267,10 +1267,10 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "TT"
-- Name: ScatteredSTRINGs1
+- Name: ns=49;ScatteredSTRINGs1
   Id: g=8e395910d40d4fd9d8a2508a9d31c640
   Supertype: TagStructure
-  DataType: ScatteredSTRINGs1
+  DataType: ns=49;ScatteredSTRINGs1
   ValueRank: Any
   Children:
   - Name: S00
@@ -1711,10 +1711,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "S26"
-- Name: ScatteredREALs
+- Name: ns=49;ScatteredREALs
   Id: g=bf7adcc90e1935da9f8d867661e29b25
   Supertype: TagStructure
-  DataType: ScatteredREALs
+  DataType: ns=49;ScatteredREALs
   ValueRank: Any
   Children:
   - Name: R00

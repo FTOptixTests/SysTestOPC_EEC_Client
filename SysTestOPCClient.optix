@@ -192,16 +192,34 @@ Project:
    Uri: 'urn:FTOptix:RAEtherNetIP:Net'
    Module: FTOptix.RAEtherNetIP.Net
    Version: 2.1
+  50:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#urn:DESKTOP-967M8HV:FactoryTalkOptixHMI:FTOptixApplication'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
+  51:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#b8f6b84affbcadc5cf08938326c70b9a#7181ebf12a47bfac9347b12e3b3f5303#Uniqo_EOI'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
+  52:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#b8f6b84affbcadc5cf08938326c70b9a#18d285e5832d698339a2ad059b917ab5#Uniqo_EOI'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
+  53:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#b8f6b84affbcadc5cf08938326c70b9a#urn:VV5:FactoryTalkOptixHMI:FTOptixApplication'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
+  54:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#b8f6b84affbcadc5cf08938326c70b9a#Temporary'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
+  55:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#b8f6b84affbcadc5cf08938326c70b9a#SysTestOPCApp'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
  Statistics:
-  TotalNodeCount: 103680
-  Objects: 16018
-  ObjectTypes: 127
-  Variables: 87255
-  VariableTypes: 111
-  DataTypes: 102
+  TotalNodeCount: 107457
+  Objects: 16660
+  ObjectTypes: 128
+  Variables: 90365
+  VariableTypes: 123
+  DataTypes: 114
   Methods: 67
   References: 330
   ReferenceTypes: 0
-  Files: 149
+  Files: 157
  Nodes:
  - File: Nodes/SysTestOPCClient.yaml

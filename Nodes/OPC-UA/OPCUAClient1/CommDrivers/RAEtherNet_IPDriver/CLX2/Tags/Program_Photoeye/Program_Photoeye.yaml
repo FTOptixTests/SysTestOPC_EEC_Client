@@ -1,0 +1,681 @@
+Name: 'ns=8;Program:Photoeye'
+Id: ns=8;g=ba53263a1b3d0ddb86a0508ee7e43eba
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Program:Photoeye"}
+Children:
+- Name: ns=8;ScatteredREAL_PA
+  Id: ns=8;g=3fac4c1ba0845556d69a549004f6d1db
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PA"}
+  ValueRank: OneDimension
+  ArrayDimensions: [27]
+  Value: [0.019999999552965164,0.05999999865889549,0.10000000149011612,0.14000000059604645,0.18000000715255737,0.2199999988079071,0.25999999046325684,0.30000001192092896,0.3400000035762787,0.3799999952316284,0.41999998688697815,0.46000000834465027,0.5,0.5400000214576721,0.5799999833106995,0.6200000047683716,0.6600000262260437,0.699999988079071,0.7400000095367432,0.7799999713897705,0.8199999928474426,0.8600000143051147,0.8999999761581421,0.9399999976158142,0.9800000190734863,31.6200008392334,32.86000061035156]
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=b7078ad529d36bb7fb259eb35c13a3de
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT00
+  Id: ns=8;g=20e5a00b27a6b24ac6eeba96e3f020ab
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT00"}
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=abca8d134cfdd1f6337b207d708ad1f0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT01
+  Id: ns=8;g=93f4542091ddbe622c1108a401891606
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT01"}
+  Value: 0.03999999910593033
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=c595bb9c4e598a055d19471bd517e5e9
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT02
+  Id: ns=8;g=53d15c4ec97a2ca97e1b51df02a3db03
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT02"}
+  Value: 0.07999999821186066
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=3f79821b4d9f9a5297a36453f611c750
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT03
+  Id: ns=8;g=6f3fd5d6e20bb27a23baa872780e2bd4
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT03"}
+  Value: 0.11999999731779099
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=ba7c88e26f6a727c87fb0beaea573083
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT04
+  Id: ns=8;g=98b2e6e70444646d570e5f847d2fb1f4
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT04"}
+  Value: 0.1599999964237213
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=5b8f2de53721d78bd7ff546950adf5a2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT05
+  Id: ns=8;g=68bcda1c533b8cbc62a2db8d9928e9a5
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT05"}
+  Value: 0.20000000298023224
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=d38796a5a1366c736fb56805394da931
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT06
+  Id: ns=8;g=938bde3aec4abe3a143942b863b844ad
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT06"}
+  Value: 0.23999999463558197
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=3878f5d770d4e1440a1974a1f6872331
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT07
+  Id: ns=8;g=b01f9954f68ae7a9400f5f7172cb0738
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT07"}
+  Value: 0.2800000011920929
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=345e22a7b365c6b75749ed75e37bce5c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT08
+  Id: ns=8;g=605cf9355695fc8b4adfb0c70fe771a1
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT08"}
+  Value: 0.3199999928474426
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=c9040cdd08db0900db0cf613ebd9ee0f
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT09
+  Id: ns=8;g=381aa8ad55f22368ae04ac4c1fcb265d
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT09"}
+  Value: 0.36000001430511475
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=3efe86792cedd7cb81f4b340812c0e41
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT10
+  Id: ns=8;g=80a68165327da9c4b3253d8bf12cfeb9
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT10"}
+  Value: 0.4000000059604645
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=d72e465a381aa7127cfad40d1f5447d8
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT11
+  Id: ns=8;g=2a360f4ff221a332ab41f3fc929ee6d1
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT11"}
+  Value: 0.4399999976158142
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=684a2d5f7aea94759cb4be753bfe7c8e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT12
+  Id: ns=8;g=0d8fde62748bd213b348fccbc42e2843
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT12"}
+  Value: 0.47999998927116394
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=80a9a37a935d90c641b1aad778c69a1b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT13
+  Id: ns=8;g=58a1fda88d3afc3264e5eb6771a53922
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT13"}
+  Value: 0.5199999809265137
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=19573d4ea6a89d89ad1ac1758582f597
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT14
+  Id: ns=8;g=5e4f676ef8627d8e421909d4cf92f793
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT14"}
+  Value: 0.5600000023841858
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=501d85df66bb5201954cef4e54fafac1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT15
+  Id: ns=8;g=76a513f8f343fd08f8f8902929a53f11
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT15"}
+  Value: 0.6000000238418579
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=9a8899671899baeb5c656832ce89f133
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT16
+  Id: ns=8;g=22b857588611389c49b16a9d164f8c8c
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT16"}
+  Value: 0.6399999856948853
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=0c833e86a29dc44a30b13a57920f456b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT17
+  Id: ns=8;g=a71b21ed92709bbeacfa9c4bd68ae812
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT17"}
+  Value: 0.6800000071525574
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=3548b37a0f0754b0091a82e1ad5d4567
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT18
+  Id: ns=8;g=aa8d3a20deb9e462b3ac855fb57030ef
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT18"}
+  Value: 0.7200000286102295
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=3a358c251fc1a5edaf1b07e594c21cc4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT19
+  Id: ns=8;g=fc4690eefe023a1d44cfa4b025809314
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT19"}
+  Value: 0.7599999904632568
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=2a23421ec034ca7db0d92d4ba217c41e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT20
+  Id: ns=8;g=9f658ee58dc315a12db8297f4edeee1b
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT20"}
+  Value: 0.800000011920929
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=32df4161cd7580eb261178cd79ea0980
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT21
+  Id: ns=8;g=7ae9ef2abe7909a46aa004ad6f466649
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT21"}
+  Value: 0.8399999737739563
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=6238e7dddc67fd10ce2ef3563dbe6e46
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT22
+  Id: ns=8;g=4e04425436f3ffc25d9d036a518fc706
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT22"}
+  Value: 0.8799999952316284
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=a45fa962c563758974f2a52897fab091
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT23
+  Id: ns=8;g=24353e1cb44ee17f0398f8fab6f45f2f
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT23"}
+  Value: 0.9200000166893005
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=6d67af95d21f625b3eabc8f19e434872
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredREAL_PT24
+  Id: ns=8;g=44aebcc27c632afb2024f29a285bc624
+  Type: RAEtherNetIPTag
+  DataType: Float
+  DisplayName: {"LocaleId":"","Text":"ScatteredREAL_PT24"}
+  Value: 0.9599999785423279
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=8c3922c0220774bd70abd00c092f30f5
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PA
+  Id: ns=8;g=e9a50590d1ac93091d0887b1707cbd04
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PA"}
+  ValueRank: OneDimension
+  ArrayDimensions: [27]
+  Value: ["1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","32","33"]
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=04bd917dc3369529e518fa599ee60064
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT00
+  Id: ns=8;g=cc4aa4f86a3f61f128d399aa29a5d37d
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT00"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=16b56676418f7a692ec5c2b2149e8785
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT01
+  Id: ns=8;g=6d18912a653e23ff326ffdc5e277ef8c
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT01"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=418b4a142de43ecb202467fd6955252b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT02
+  Id: ns=8;g=0503998f98ca37ccb0edce67d7d39909
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT02"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=9fcc9a81eaaa208c8916bfa5be213fea
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT03
+  Id: ns=8;g=098d188e12a85aad666f34d96d71de99
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT03"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=43500b04a6e155994211580dce9e9708
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT04
+  Id: ns=8;g=08be091c269ce34bcc277aef99be7304
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT04"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=782536234f6cde4d4679c64fe81e944e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT05
+  Id: ns=8;g=436e6e5040ce191abf113aa26e8fc4f0
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT05"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=f315d80add49711afb4e9e53ceaa8b34
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT06
+  Id: ns=8;g=ef90c26120aacdcf74785ad907c4fb06
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT06"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=51e78842d2fa0381c62de7ebf8e0c97e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT07
+  Id: ns=8;g=dff65c48cbf37b9e3d10dadc7c171ce4
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT07"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=0f23c5c017701d9564c1ec4113b34171
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT08
+  Id: ns=8;g=e45d17b916e6fabc4ae5c7a19b3237bc
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT08"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=991ddb8320992afe9f5eb657a07554d9
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT09
+  Id: ns=8;g=40134e0d2c7541ef47eab8a016fcb699
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT09"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=02c0fd4da62f2ad5ebaec0a52e07d57e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT10
+  Id: ns=8;g=037baa99620c41e71b01c00ed0b785ce
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT10"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=cf1e86cda9717bc0019fe9da56bb5f5c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT11
+  Id: ns=8;g=0be765743d7a83378dbd02ac8149b3f5
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT11"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=6c6bc19dce0382cfba91f8d0a7c6daf6
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT12
+  Id: ns=8;g=689d459965e68c90e353c25299d81947
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT12"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=03b085defb32c6749838b41aaf73c4eb
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT13
+  Id: ns=8;g=a1fcdd28807d9a02c349e37e93ef9fe7
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT13"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=efaabba338d6e2d133b4e5f2d1f43e71
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT14
+  Id: ns=8;g=0779f1dc202d1068a66845cf07a31d9f
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT14"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=1e90bed9b025c58ff8ce981ca0b73140
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT15
+  Id: ns=8;g=883d682d03593ac101c8825df69199e0
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT15"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=08330f6c55f78fdab47dc5007de8ba26
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT16
+  Id: ns=8;g=d67379514fccd8944c8c1f1d3096092f
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT16"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=9eaf59d0ceab7038010c88352464fd84
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT17
+  Id: ns=8;g=0d872da2035eac1f748391fdc425345c
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT17"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=0e9cb8ba393f6766f3e6d2916a83ad8f
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT18
+  Id: ns=8;g=18d66e80a1735ce467641d0b267d459a
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT18"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=877e29dc3c51e410f5911426f7f25c70
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT19
+  Id: ns=8;g=d1333c0b99e358bdbe70cbaeb81c2ce7
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT19"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=19bce5bbbb85192328135326ca1506f2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT20
+  Id: ns=8;g=3d30e55dc9d1eb79777a381236ec4fa4
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT20"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=ef88f95264c78d54951031aa564b8350
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT21
+  Id: ns=8;g=4580427084304e891150f43fda039470
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT21"}
+  Value: "1"
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=d9dcc298a08a061b47cdc9db6232f951
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT22
+  Id: ns=8;g=2e501e647c17d64e7ff345c7e040d415
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT22"}
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=722e8567a674ace1539e5b06603e067a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT23
+  Id: ns=8;g=cd00d8aaf5f93b2de28999fa21676127
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT23"}
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=93f42d4fceb45943020a2f3915627f36
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any
+- Name: ns=8;ScatteredSTRING_PT24
+  Id: ns=8;g=8cdee8fe2426544e5fd8300567bdf3a8
+  Type: RAEtherNetIPTag
+  DataType: String
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRING_PT24"}
+  Children:
+  - Name: SymbolName
+    Id: ns=8;g=9613a7ca5beeeb6281f646a03eb6a23a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"SymbolName"}
+    ValueRank: Any

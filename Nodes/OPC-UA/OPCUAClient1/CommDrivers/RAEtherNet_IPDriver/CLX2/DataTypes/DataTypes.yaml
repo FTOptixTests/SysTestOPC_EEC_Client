@@ -1,8 +1,379 @@
 Name: DataTypes
-Id: ns=8;g=929c73d1697feb3864654071da563547
+Id: ns=8;g=878768b872315caeb9e89547aa4ff02f
 Type: FolderType
 DisplayName: {"LocaleId":"","Text":"DataTypes"}
 Children:
+- Class: DataType
+  Name: ns=8;ScreenToScrew_Expected_Type041
+  Id: ns=8;g=f3fdcca50bbb2f41ca38580781647ae3
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "ScreenToScrew_Expected_Type041",
+    "DataType": {
+     "IdType": 2,
+     "Id": "f3fdcca50bbb2f41ca38580781647ae3",
+     "Namespace": 8
+    },
+    "Fields": [{
+      "Name": "Tag00",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Tag01",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Tag02",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Tag03",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Tag04",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Tag05",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Tag06",
+      "DataType": {
+       "Id": 8
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"ScreenToScrew_Expected_Type04"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: ns=8;g=d19d61b2288ddbe41e4a88d66974f40d
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: ns=8;ScatteredSTRINGs1
+  Id: ns=8;g=060b2d407d891890633d929d06b08097
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "ScatteredSTRINGs1",
+    "DataType": {
+     "IdType": 2,
+     "Id": "060b2d407d891890633d929d06b08097",
+     "Namespace": 8
+    },
+    "Fields": [{
+      "Name": "S00",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S01",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S02",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S03",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S04",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S05",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S06",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S07",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S08",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S09",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S10",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S11",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S12",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S13",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S14",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S15",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S16",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S17",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S18",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S19",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S20",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S21",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S22",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S23",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S24",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S25",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "S26",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"ScatteredSTRINGs"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: ns=8;g=65355d2902d20119487b494a53286cd8
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: ns=8;ScatteredREALs
+  Id: ns=8;g=c4048335b86b75132d03f531e8ade159
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "ScatteredREALs",
+    "DataType": {
+     "IdType": 2,
+     "Id": "c4048335b86b75132d03f531e8ade159",
+     "Namespace": 8
+    },
+    "Fields": [{
+      "Name": "R00",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R01",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R02",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R03",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R04",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R05",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R06",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R07",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R08",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R09",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R10",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R11",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R12",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R13",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R14",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R15",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R16",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R17",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R18",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R19",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R20",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R21",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R22",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R23",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R24",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R25",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "R26",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"ScatteredREALs"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: ns=8;g=c4b2aa3e789257afe32a9b63508029da
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
 - Class: DataType
   Name: ns=8;HB_EOI1
   Id: ns=8;g=46b66782d324d654a6cc23f499ad16d1
@@ -47,7 +418,7 @@ Children:
   DisplayName: {"LocaleId":"","Text":"HB_EOI"}
   Children:
   - Name: ns=0;Default Binary
-    Id: ns=8;g=3a380e10cf46e536f2265c461047344c
+    Id: ns=8;g=7a2390eca95e8a00d2bcea1ab1b742ea
     Type: DataTypeEncodingType
     ModellingRule: None
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
@@ -94,7 +465,7 @@ Children:
   DisplayName: {"LocaleId":"","Text":"TIMER"}
   Children:
   - Name: ns=0;Default Binary
-    Id: ns=8;g=7b74876e237a496ddd01edbb97c8123e
+    Id: ns=8;g=3f5f6eebb89bf8185a5a3fa9857c81b8
     Type: DataTypeEncodingType
     ModellingRule: None
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
