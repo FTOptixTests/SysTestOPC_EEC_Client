@@ -40,7 +40,7 @@ class DataItem
 public class LinkPEinScrewToScreen : BaseNetLogic
 {
 
-    public string LogixDriverPath = "/Objects/SysTestBaseApp/CommDrivers/RAEtherNet_IPDriver/";
+    public string LogixDriverPath = "/Objects/SysTestOPCClient/OPC-UA/OPCUAClient1/Objects/SysTestOPCApp/CommDrivers/RAEtherNet_IPDriver/";
 
     [ExportMethod]
     public void Method1()
@@ -67,8 +67,9 @@ public class LinkPEinScrewToScreen : BaseNetLogic
             //List<string> INT = SetBaseTypeList(31, "INT");
             //List<string> SINT = SetBaseTypeList(32, "SINT");
             //List<string> LINT = SetBaseTypeList(33, "LINT");
-            List<string> ARRAY = SetArrayList(38, "ARRAY");
-            Log.Info("Array list set");
+            //List<string> ARRAY = SetArrayList(38, "ARRAY");
+            List<string> REAL = SetBaseTypeList(55, "REAL");
+            Log.Info("Real list set");
             //List<string> STRING = SetBaseTypeList(28, "STRING");
             // Add data sets to the list
             //dataSetList.Add(new DataItem { BarPath = "UI/Screens/Screen004_Read_DINT/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/", DataType = DINT});
@@ -77,8 +78,9 @@ public class LinkPEinScrewToScreen : BaseNetLogic
            // dataSetList.Add(new DataItem { BarPath = "UI/Screens/Screen032_read_SINT/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/", DataType = INT});
             //dataSetList.Add(new DataItem { BarPath = "UI/Screens/Screen033_read_LINT/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/", DataType = SINT});
             //dataSetList.Add(new DataItem { BarPath = "UI/Screens/Screen033_read_LINT/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/", DataType = LINT});
-            dataSetList.Add(new DataItem { BarPath = "UI/Screens/Screen038_read_ARRAY/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/", DataType = ARRAY});
-             Log.Info("Array datasetList");
+           // dataSetList.Add(new DataItem { BarPath = "UI/Screens/Screen038_read_ARRAY/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/", DataType = ARRAY});
+           dataSetList.Add(new DataItem { BarPath = "UI/Screens/Screen055_Read_REAL_OPC/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/", DataType = REAL});
+             Log.Info("Real datasetList");
             //dataSetList.Add(new DataItem { BarPath = "UI/Screens/Screen028_read_STRING/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/", DataType = STRING});
             //SysTestBaseApp/UI/Screens/Screen028_read_STRING/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1
             // properties: Fill Color, Opacity
@@ -92,7 +94,7 @@ public class LinkPEinScrewToScreen : BaseNetLogic
                     // Copy the list with Data to temporary list
                     List<String> ListToFillSources = new List<string>(dataItem.DataType);
                     //fix dataItem.BarPath to avoid hardcoding
-                    if (property == "Opacity" && dataItem.BarPath !="UI/Screens/Screen038_read_ARRAY/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/")
+                    if (property == "Opacity" && dataItem.BarPath !="UI/Screens/Screen055_Read_REAL_OPC/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/")
                     {
                         ListToFillSources = ModifySubstrings(ListToFillSources);
                     }
