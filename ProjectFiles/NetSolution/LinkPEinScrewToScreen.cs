@@ -68,9 +68,10 @@ public class LinkPEinScrewToScreen : BaseNetLogic
             //List<string> SINT = SetBaseTypeList(32, "SINT");
             //List<string> LINT = SetBaseTypeList(33, "LINT");
             //List<string> ARRAY = SetArrayList(38, "ARRAY");
-            List<string> REAL = SetBaseTypeList(55, "REAL");
-            Log.Info("Real list set");
+            //List<string> REAL = SetBaseTypeList(55, "REAL");
+            Log.Info("String list set");
             //List<string> STRING = SetBaseTypeList(28, "STRING");
+            List<string> STRING = SetBaseTypeList(56, "STRING");
             // Add data sets to the list
             //dataSetList.Add(new DataItem { BarPath = "UI/Screens/Screen004_Read_DINT/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/", DataType = DINT});
             //dataSetList.Add(new DataItem { BarPath = "UI/Screens/Screen029_read_REAL/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/", DataType = REAL});
@@ -79,9 +80,10 @@ public class LinkPEinScrewToScreen : BaseNetLogic
             //dataSetList.Add(new DataItem { BarPath = "UI/Screens/Screen033_read_LINT/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/", DataType = SINT});
             //dataSetList.Add(new DataItem { BarPath = "UI/Screens/Screen033_read_LINT/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/", DataType = LINT});
            // dataSetList.Add(new DataItem { BarPath = "UI/Screens/Screen038_read_ARRAY/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/", DataType = ARRAY});
-           dataSetList.Add(new DataItem { BarPath = "UI/Screens/Screen055_Read_REAL_OPC/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/", DataType = REAL});
-             Log.Info("Real datasetList");
+           //dataSetList.Add(new DataItem { BarPath = "UI/Screens/Screen055_Read_REAL_OPC/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/", DataType = REAL});
+             Log.Info("STRING datasetList");
             //dataSetList.Add(new DataItem { BarPath = "UI/Screens/Screen028_read_STRING/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/", DataType = STRING});
+            dataSetList.Add(new DataItem { BarPath = "UI/Screens/Screen056_Read_STRING_OPC/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/", DataType = STRING});
             //SysTestBaseApp/UI/Screens/Screen028_read_STRING/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1
             // properties: Fill Color, Opacity
             foreach(string property in PropertiesList)
@@ -93,20 +95,24 @@ public class LinkPEinScrewToScreen : BaseNetLogic
                     Log.Info($"ScreenName: {dataItem.BarPath}, DataType: {dataItem.DataType}");
                     // Copy the list with Data to temporary list
                     List<String> ListToFillSources = new List<string>(dataItem.DataType);
+                    Log.Info("1 loop");
                     //fix dataItem.BarPath to avoid hardcoding
-                    if (property == "Opacity" && dataItem.BarPath !="UI/Screens/Screen055_Read_REAL_OPC/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/")
+                    if (property == "Opacity" && dataItem.BarPath !="UI/Screens/Screen056_Read_STRING_OPC/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/")
                     {
                         ListToFillSources = ModifySubstrings(ListToFillSources);
                     }
                     int absolute_index = 0;
                     for (int rect_index = 1; rect_index <5; rect_index++)
                     {
-                        for (int i = 0; i<26; i++)
+                        Log.Info("2 loop");
+                        for (int i = 0; i<25; i++)
                         {
-                          
-                            DynamicLinkPath = dataItem.BarPath + $"Rectangle{rect_index}/{property}/KeyValueConverter1/Source/ExpressionEvaluator1/Source{i}/DynamicLink";
-                           
+                          Log.Info("3 loop");
+                            DynamicLinkPath = dataItem.BarPath + $"Rectangle{rect_index}/{property}/KeyValueConverter1/Source/ExpressionEvaluator1/Source0/StringFormatter1/Source{i}/DynamicLink";
+                           Log.Info("DL link        : "+DynamicLinkPath);
+                           Log.Info(Project.Current.GetVariable(DynamicLinkPath).Value );
                             Project.Current.GetVariable(DynamicLinkPath).Value = ListToFillSources[absolute_index];
+                            Log.Info("5 loop");
                             absolute_index++;
                         }
                     }
@@ -119,7 +125,7 @@ public class LinkPEinScrewToScreen : BaseNetLogic
     {   List<string> ListOfSources = new List<string>();
         char firstchar = var_type[0];
         //Rectangle1
-        ListOfSources.Add(LogixDriverPath + $"CLX1/Tags/Controller Tags/ScrewToScreen_{var_type}_PEExpected[0,{PEExpected}]");
+        //ListOfSources.Add(LogixDriverPath + $"CLX1/Tags/Controller Tags/ScrewToScreen_{var_type}_PEExpected[0,{PEExpected}]");
         ListOfSources.Add(LogixDriverPath + $"CLX1/Tags/Program&:Photoeye/Scattered{var_type}_PT00");
         ListOfSources.Add(LogixDriverPath + $"CLX1/Tags/Controller Tags/Scattered{var_type}_CT00");
         ListOfSources.Add(LogixDriverPath + $"CLX1/Tags/Program&:Photoeye/Scattered{var_type}_PA[0]");
@@ -147,7 +153,7 @@ public class LinkPEinScrewToScreen : BaseNetLogic
         ListOfSources.Add(LogixDriverPath + $"CLX4/Tags/Program&:Photoeye/Scattered{var_type}_PT06");
 
         //Rectange2
-        ListOfSources.Add(LogixDriverPath + $"CLX2/Tags/Controller Tags/ScrewToScreen_{var_type}_PEExpected[1,{PEExpected}]");
+        //ListOfSources.Add(LogixDriverPath + $"CLX2/Tags/Controller Tags/ScrewToScreen_{var_type}_PEExpected[1,{PEExpected}]");
         ListOfSources.Add(LogixDriverPath + $"CLX1/Tags/Controller Tags/Scattered{var_type}_CT06");
         ListOfSources.Add(LogixDriverPath + $"CLX1/Tags/Program&:Photoeye/Scattered{var_type}_PA[6]");
         ListOfSources.Add(LogixDriverPath + $"CLX1/Tags/Controller Tags/Scattered{var_type}_CS/{firstchar}06");
@@ -175,7 +181,7 @@ public class LinkPEinScrewToScreen : BaseNetLogic
         ListOfSources.Add(LogixDriverPath + $"CLX4/Tags/Controller Tags/Scattered{var_type}_CT12");
 
         //Rectange3
-        ListOfSources.Add(LogixDriverPath + $"CLX3/Tags/Controller Tags/ScrewToScreen_{var_type}_PEExpected[2,{PEExpected}]");
+        //ListOfSources.Add(LogixDriverPath + $"CLX3/Tags/Controller Tags/ScrewToScreen_{var_type}_PEExpected[2,{PEExpected}]");
         ListOfSources.Add(LogixDriverPath + $"CLX1/Tags/Program&:Photoeye/Scattered{var_type}_PA[12]");
         ListOfSources.Add(LogixDriverPath + $"CLX1/Tags/Controller Tags/Scattered{var_type}_CS/{firstchar}12");
         ListOfSources.Add(LogixDriverPath + $"CLX1/Tags/Program&:Photoeye/Scattered{var_type}_PT13");
@@ -203,7 +209,7 @@ public class LinkPEinScrewToScreen : BaseNetLogic
         ListOfSources.Add(LogixDriverPath + $"CLX4/Tags/Program&:Photoeye/Scattered{var_type}_PA[18]");
 
         //Rectange4
-        ListOfSources.Add(LogixDriverPath + $"CLX4/Tags/Controller Tags/ScrewToScreen_{var_type}_PEExpected[3,{PEExpected}]");
+        //ListOfSources.Add(LogixDriverPath + $"CLX4/Tags/Controller Tags/ScrewToScreen_{var_type}_PEExpected[3,{PEExpected}]");
         ListOfSources.Add(LogixDriverPath + $"CLX1/Tags/Controller Tags/Scattered{var_type}_CS/{firstchar}18");
         ListOfSources.Add(LogixDriverPath + $"CLX1/Tags/Program&:Photoeye/Scattered{var_type}_PT19");
         ListOfSources.Add(LogixDriverPath + $"CLX1/Tags/Controller Tags/Scattered{var_type}_CT19");
