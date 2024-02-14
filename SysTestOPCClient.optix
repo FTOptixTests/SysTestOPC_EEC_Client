@@ -211,14 +211,14 @@ Project:
    Uri: 'b8f6b84affbcadc5cf08938326c70b9a#b8f6b84affbcadc5cf08938326c70b9a#SysTestOPCApp'
    ServerUri: b8f6b84affbcadc5cf08938326c70b9a
  Statistics:
-  TotalNodeCount: 107457
-  Objects: 16660
-  ObjectTypes: 128
-  Variables: 90365
+  TotalNodeCount: 110181
+  Objects: 17311
+  ObjectTypes: 130
+  Variables: 92436
   VariableTypes: 123
   DataTypes: 114
   Methods: 67
-  References: 330
+  References: 332
   ReferenceTypes: 0
   Files: 157
  Nodes:

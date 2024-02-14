@@ -638,3 +638,36 @@ Children:
         Type: BaseDataVariableType
         DataType: NodeId
         Value: "/Objects/SysTestOPCClient/UI/Screens/Screen054_Write_ICE2"
+    - Name: Pair55
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 55
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: NodeId
+        Value: "/Objects/SysTestOPCClient/UI/Screens/Screen055_Read_REAL_OPC"
+    - Name: Pair56
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 56
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: NodeId
+        Value: "/Objects/SysTestOPCClient/UI/Screens/Screen056_Read_STRING_OPC"
+    - Name: Pair57
+      Type: ValueMapPair
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 57
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: NodeId
+        Value: "/Objects/SysTestOPCClient/UI/Screens/Screen057_Write_ICE1_OPC"

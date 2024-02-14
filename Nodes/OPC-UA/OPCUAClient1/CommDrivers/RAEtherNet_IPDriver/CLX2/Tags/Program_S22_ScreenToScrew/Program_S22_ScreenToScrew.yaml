@@ -158,3 +158,68 @@ Children:
     DataType: BaseDataType
     DisplayName: {"LocaleId":"","Text":"SymbolName"}
     ValueRank: Any
+- Name: ns=8;Expected_ScrnToScrewPBWrite_Type04
+  Id: ns=8;g=9e6a0ec2d4a9f60dc1dba651cb7fe9ad
+  Type: ns=8;ScreenToScrew_Expected_Type041
+  DataType: ns=8;ScreenToScrew_Expected_Type041
+  DisplayName: {"LocaleId":"","Text":"Expected_ScrnToScrewPBWrite_Type04"}
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "f3fdcca50bbb2f41ca38580781647ae3",
+     "Namespace": 8
+    },
+    "Body": {
+     "Tag00": 4000000,
+     "Tag01": "abcdefghijklmnopqrstuvwxyz",
+     "Tag02": true,
+     "Tag03": 403000.125,
+     "Tag04": 32767,
+     "Tag05": 127,
+     "Tag06": 406406406
+    }
+   }
+  Children:
+  - Name: ns=8;Tag00
+    Id: ns=8;g=108557907dd1139a33627b2a4f121884
+    Type: RAEtherNetIPTag
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"Tag00"}
+    ValueRank: Any
+  - Name: ns=8;Tag01
+    Id: ns=8;g=fc58f93332c1348c2de2920b743b37f6
+    Type: RAEtherNetIPTag
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"Tag01"}
+    ValueRank: Any
+  - Name: ns=8;Tag02
+    Id: ns=8;g=bf00dc89665253b77f22b66cbe413124
+    Type: RAEtherNetIPTag
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"Tag02"}
+    ValueRank: Any
+  - Name: ns=8;Tag03
+    Id: ns=8;g=1e4984b91b6457c99f2fa19b94261ed2
+    Type: RAEtherNetIPTag
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"Tag03"}
+    ValueRank: Any
+  - Name: ns=8;Tag04
+    Id: ns=8;g=ac2c3de66d45ff10d4968bf293e4b18d
+    Type: RAEtherNetIPTag
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"Tag04"}
+    ValueRank: Any
+  - Name: ns=8;Tag05
+    Id: ns=8;g=25bc09b161959baab96af9584e0c033a
+    Type: RAEtherNetIPTag
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"Tag05"}
+    ValueRank: Any
+  - Name: ns=8;Tag06
+    Id: ns=8;g=1e8bb1717fffbef416ee6a30110b1955
+    Type: RAEtherNetIPTag
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"Tag06"}
+    ValueRank: Any
