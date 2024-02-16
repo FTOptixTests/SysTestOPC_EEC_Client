@@ -90,8 +90,8 @@ Children:
     DataType: String
     Value: "Program:S30_DBA.UniqoActiveAlarmsEOI4"
 - Name: UniqoAlarmsInitTimer
-  Type: ns=49;TIMER1
-  DataType: ns=49;TIMER1
+  Type: ns=55;TIMER1
+  DataType: ns=55;TIMER1
   Children:
   - Name: ACC
     Type: RAEtherNetIPTag
@@ -190,8 +190,8 @@ Children:
     DataType: String
     Value: "Program:S30_DBA.UniqoRstOns"
 - Name: UniqoVerifyKnowStateDelay
-  Type: ns=49;TIMER1
-  DataType: ns=49;TIMER1
+  Type: ns=55;TIMER1
+  DataType: ns=55;TIMER1
   Children:
   - Name: ACC
     Type: RAEtherNetIPTag

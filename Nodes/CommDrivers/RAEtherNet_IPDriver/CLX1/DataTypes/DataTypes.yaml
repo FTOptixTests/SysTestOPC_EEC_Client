@@ -2,7 +2,7 @@ Name: DataTypes
 Type: FolderType
 Children:
 - Class: DataType
-  Name: ns=49;ScreenToScrew_Expected_Type04
+  Name: ns=55;ScreenToScrew_Expected_Type04
   Id: g=bbeef0adb1cd46d56c0e1a2e95ebfae6
   Supertype: Structure
   StructDefinition: 
@@ -11,7 +11,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "bbeef0adb1cd46d56c0e1a2e95ebfae6",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "Tag00",
@@ -67,203 +67,203 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "a9e84c2da51da40aeedb4d9ee307d261",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "UDT00",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT01",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT02",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT03",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT04",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT05",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT06",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT07",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT08",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT09",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT10",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT11",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT12",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT13",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT14",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT15",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT16",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT17",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT18",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT19",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT20",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT21",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT22",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT23",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT24",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT25",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT26",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "UDT27",
       "DataType": {
        "IdType": 2,
        "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-       "Namespace": 49
+       "Namespace": 55
       }
      }]
    }
@@ -284,7 +284,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "80b74a5354cbbaaebf7efc89aac456cd",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "Cfg_CapturedFirstTimes",
@@ -389,14 +389,14 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "7905dca62f33c252fac951c04f4c4d3b",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "L3",
       "DataType": {
        "IdType": 2,
        "Id": "5d64495005044dc3ba5445a4ba0102bc",
-       "Namespace": 49
+       "Namespace": 55
       }
      }]
    }
@@ -417,14 +417,14 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "14582c4c6a76a08c7ee207934e58322c",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "L3",
       "DataType": {
        "IdType": 2,
        "Id": "5d64495005044dc3ba5445a4ba0102bc",
-       "Namespace": 49
+       "Namespace": 55
       }
      }]
    }
@@ -445,7 +445,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "aaf2bb74d0bbdc1454aef67040112f1f",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "D00",
@@ -601,7 +601,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "644c48cdd8c49bdce096fbe5e6cb4abe",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "Ack_Fail",
@@ -913,21 +913,21 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "cc0b7be838b1b5ed91b7cda248adf377",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "Hi",
       "DataType": {
        "IdType": 2,
        "Id": "cc0b7be838b1b5ed91b7cda248adf377",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "HiHi",
       "DataType": {
        "IdType": 2,
        "Id": "cc0b7be838b1b5ed91b7cda248adf377",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "Inf_Tab",
@@ -964,14 +964,14 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "cc0b7be838b1b5ed91b7cda248adf377",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "LoLo",
       "DataType": {
        "IdType": 2,
        "Id": "cc0b7be838b1b5ed91b7cda248adf377",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "MCmd_InpPV",
@@ -988,7 +988,7 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "db6a6194ef205e396c80e0a43a56ba3c",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "MSet_SubstPV",
@@ -1395,7 +1395,7 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "a90cfdb3aee26f57f1eecc876cece517",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "Wrk_ScanTime",
@@ -1446,14 +1446,14 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "425614813f8c159f3c6074a570ecc02c",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "L2",
       "DataType": {
        "IdType": 2,
        "Id": "14582c4c6a76a08c7ee207934e58322c",
-       "Namespace": 49
+       "Namespace": 55
       }
      }]
    }
@@ -1474,7 +1474,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "bccecb97eaa1d9862ef524e5a536b84e",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "Rec_BOOL",
@@ -1535,7 +1535,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "8c51d9fd00680a12f6f45bf408977493",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "CurrentScreen",
@@ -1547,21 +1547,21 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "359200b1877a1f6bdde58f0e279d1e8d",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "EOI1",
       "DataType": {
        "IdType": 2,
        "Id": "5fe2b0b00b786b1cee860882ed945e42",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "EOI2",
       "DataType": {
        "IdType": 2,
        "Id": "5fe2b0b00b786b1cee860882ed945e42",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "LastCycleScreen",
@@ -1578,7 +1578,7 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "93f3ec706cb96372df325eac7b379100",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "URLFromTBM",
@@ -1606,7 +1606,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "db6a6194ef205e396c80e0a43a56ba3c",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "Cfg_OvrdOverLock",
@@ -1767,7 +1767,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "376307f87d006ac7ab8cb62fa4db2da8",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "Ack_DriveFault",
@@ -2174,7 +2174,7 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "cc0b7be838b1b5ed91b7cda248adf377",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "EnableIn",
@@ -2256,14 +2256,14 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "cc0b7be838b1b5ed91b7cda248adf377",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "FailToStop",
       "DataType": {
        "IdType": 2,
        "Id": "cc0b7be838b1b5ed91b7cda248adf377",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "Inf_Tab",
@@ -2405,14 +2405,14 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "cc0b7be838b1b5ed91b7cda248adf377",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "IOFault",
       "DataType": {
        "IdType": 2,
        "Id": "cc0b7be838b1b5ed91b7cda248adf377",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "MCmd_Disable",
@@ -2429,7 +2429,7 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "db6a6194ef205e396c80e0a43a56ba3c",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "OCmd_Bypass",
@@ -2986,7 +2986,7 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "a90cfdb3aee26f57f1eecc876cece517",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "Wrk_Bypass",
@@ -2998,7 +2998,7 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "a90cfdb3aee26f57f1eecc876cece517",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "Wrk_Disabled",
@@ -3045,7 +3045,7 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "a90cfdb3aee26f57f1eecc876cece517",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "Wrk_Rev",
@@ -3072,14 +3072,14 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "a90cfdb3aee26f57f1eecc876cece517",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "Wrk_StopT",
       "DataType": {
        "IdType": 2,
        "Id": "a90cfdb3aee26f57f1eecc876cece517",
-       "Namespace": 49
+       "Namespace": 55
       }
      }]
    }
@@ -3100,7 +3100,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "93f3ec706cb96372df325eac7b379100",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "AlarmsEventsFullURL",
@@ -3136,7 +3136,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "18be2bc7dfe1ed295e2eb9d325bba69f",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "L5",
@@ -3162,7 +3162,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "cc0b7be838b1b5ed91b7cda248adf377",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "Ack",
@@ -3344,7 +3344,7 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "a90cfdb3aee26f57f1eecc876cece517",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "Wrk_Inhibited",
@@ -3356,7 +3356,7 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "a90cfdb3aee26f57f1eecc876cece517",
-       "Namespace": 49
+       "Namespace": 55
       }
      }]
    }
@@ -3377,7 +3377,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "db46bda9aeb6aa80df04452b3e63b83f",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "I00",
@@ -3533,7 +3533,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "5fe2b0b00b786b1cee860882ed945e42",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "AlmEvntButtonCloseClicked",
@@ -3594,7 +3594,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "0ce9605e2e4ef00cc9d7e44b3f192fe0",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "BOOL",
@@ -3620,14 +3620,14 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "5d64495005044dc3ba5445a4ba0102bc",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "L4",
       "DataType": {
        "IdType": 2,
        "Id": "18be2bc7dfe1ed295e2eb9d325bba69f",
-       "Namespace": 49
+       "Namespace": 55
       }
      }]
    }
@@ -3648,14 +3648,14 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "33c0ff194ec44dfa9b1964f967b14b12",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "L1",
       "DataType": {
        "IdType": 2,
        "Id": "425614813f8c159f3c6074a570ecc02c",
-       "Namespace": 49
+       "Namespace": 55
       }
      }]
    }
@@ -3676,7 +3676,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "a7a89d419307b65aa904a251c32d5340",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "Ack_FullStall",
@@ -3908,7 +3908,7 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "cc0b7be838b1b5ed91b7cda248adf377",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "Inf_Tab",
@@ -3980,14 +3980,14 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "cc0b7be838b1b5ed91b7cda248adf377",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "IOFault",
       "DataType": {
        "IdType": 2,
        "Id": "cc0b7be838b1b5ed91b7cda248adf377",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "MCmd_Disable",
@@ -4004,7 +4004,7 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "db6a6194ef205e396c80e0a43a56ba3c",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "OCmd_Bypass",
@@ -4336,7 +4336,7 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "cc0b7be838b1b5ed91b7cda248adf377",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "Val_Notify",
@@ -4373,7 +4373,7 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "a90cfdb3aee26f57f1eecc876cece517",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "Wrk_IntlkTrip",
@@ -4405,21 +4405,21 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "a90cfdb3aee26f57f1eecc876cece517",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "Wrk_SimOpenT",
       "DataType": {
        "IdType": 2,
        "Id": "a90cfdb3aee26f57f1eecc876cece517",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "Wrk_TransitStallT",
       "DataType": {
        "IdType": 2,
        "Id": "a90cfdb3aee26f57f1eecc876cece517",
-       "Namespace": 49
+       "Namespace": 55
       }
      },{
       "Name": "Wrk_TravelFdbk",
@@ -4445,7 +4445,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "418e3de54f716afadfab8a19022a63ab",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "BOOL",
@@ -4496,7 +4496,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "f845a9b76e38ddcd8ab25929044b73c2",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "L5",
@@ -4513,7 +4513,7 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: ns=49;ScatteredREALs1
+  Name: ns=55;ScatteredREALs1
   Id: g=132b5f0df39f68306ef0ed1a02e0b4d3
   Supertype: Structure
   StructDefinition: 
@@ -4522,7 +4522,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "132b5f0df39f68306ef0ed1a02e0b4d3",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "R00",
@@ -4678,7 +4678,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "d60a99aafa39ae567675c9956bccf191",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "Tag00",
@@ -4734,7 +4734,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "65624c12ec51c0f88f140c202d279a01",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "B00",
@@ -4881,7 +4881,7 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: ns=49;HB_EOI
+  Name: ns=55;HB_EOI
   Id: g=d14c05053d224da806d4719762ec5838
   Supertype: Structure
   StructDefinition: 
@@ -4890,7 +4890,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "d14c05053d224da806d4719762ec5838",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "HB1",
@@ -4917,7 +4917,7 @@ Children:
       "DataType": {
        "IdType": 2,
        "Id": "a90cfdb3aee26f57f1eecc876cece517",
-       "Namespace": 49
+       "Namespace": 55
       }
      }]
    }
@@ -4938,7 +4938,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "b769940b2138a62940371f822da866f0",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "L00",
@@ -5085,7 +5085,7 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: ns=49;ScatteredSTRINGs
+  Name: ns=55;ScatteredSTRINGs
   Id: g=cee9c7fb6d2c177b877fe7e80129b5aa
   Supertype: Structure
   StructDefinition: 
@@ -5094,7 +5094,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "cee9c7fb6d2c177b877fe7e80129b5aa",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "S00",
@@ -5250,7 +5250,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "425ddbfe4866ae32910b3be6f33e6a8c",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "A",
@@ -5306,7 +5306,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "39be6f08cee135fed68c3952faee7c19",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "S00",
@@ -5462,7 +5462,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "f689acb85d55c2d88cf640e38989c118",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "HI_Input",
@@ -5509,7 +5509,7 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: ns=49;TIMER
+  Name: ns=55;TIMER
   Id: g=a90cfdb3aee26f57f1eecc876cece517
   Supertype: Structure
   StructDefinition: 
@@ -5518,7 +5518,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "a90cfdb3aee26f57f1eecc876cece517",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "ACC",
@@ -5564,7 +5564,7 @@ Children:
     "DataType": {
      "IdType": 2,
      "Id": "359200b1877a1f6bdde58f0e279d1e8d",
-     "Namespace": 49
+     "Namespace": 55
     },
     "Fields": [{
       "Name": "ACC",

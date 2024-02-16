@@ -101,7 +101,7 @@ Children:
               - Name: MethodContainer1
                 Type: BaseObjectType
                 Children:
-                - Name: ns=10;ObjectPointer
+                - Name: ns=16;ObjectPointer
                   Type: NodePointer
                   DataType: NodeId
                   Children:
@@ -119,7 +119,7 @@ Children:
                       DataType: DynamicLinkMode
                       ModellingRule: Optional
                       Value: 2
-                - Name: ns=10;Method
+                - Name: ns=16;Method
                   Type: BaseDataVariableType
                   DataType: String
                   Value: "ChangePanel"
@@ -129,12 +129,12 @@ Children:
                   - Name: NewPanel
                     Type: BaseDataVariableType
                     DataType: NodeId
-                    Description: {"NamespaceIndex":12,"TextId":"ChangePanelNewPanelDescription"}
-                    Value: "/Objects/SysTestOPCClient/UI/Screens/Screen001"
+                    Description: {"NamespaceIndex":18,"TextId":"ChangePanelNewPanelDescription"}
+                    Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen001"
                   - Name: AliasNode
                     Type: BaseDataVariableType
                     DataType: NodeId
-                    Description: {"NamespaceIndex":12,"TextId":"ChangePanelAliasNodeDescription"}
+                    Description: {"NamespaceIndex":18,"TextId":"ChangePanelAliasNodeDescription"}
                     ValueRank: ScalarOrOneDimension
             - Name: EventArguments
               Type: MouseClickEvent
@@ -184,7 +184,7 @@ Children:
               - Name: MethodContainer1
                 Type: BaseObjectType
                 Children:
-                - Name: ns=10;ObjectPointer
+                - Name: ns=16;ObjectPointer
                   Type: NodePointer
                   DataType: NodeId
                   Children:
@@ -202,7 +202,7 @@ Children:
                       DataType: DynamicLinkMode
                       ModellingRule: Optional
                       Value: 2
-                - Name: ns=10;Method
+                - Name: ns=16;Method
                   Type: BaseDataVariableType
                   DataType: String
                   Value: "ChangePanel"
@@ -212,11 +212,11 @@ Children:
                   - Name: NewPanel
                     Type: BaseDataVariableType
                     DataType: NodeId
-                    Description: {"NamespaceIndex":12,"TextId":"ChangePanelNewPanelDescription"}
+                    Description: {"NamespaceIndex":18,"TextId":"ChangePanelNewPanelDescription"}
                   - Name: AliasNode
                     Type: BaseDataVariableType
                     DataType: NodeId
-                    Description: {"NamespaceIndex":12,"TextId":"ChangePanelAliasNodeDescription"}
+                    Description: {"NamespaceIndex":18,"TextId":"ChangePanelAliasNodeDescription"}
                     ValueRank: ScalarOrOneDimension
             - Name: EventArguments
               Type: MouseClickEvent
@@ -272,7 +272,7 @@ Children:
                 ReferenceType: HasParameter
                 ModellingRule: Optional
                 Value: "{0}+40"
-              - Name: ns=10;Source0
+              - Name: ns=16;Source0
                 Type: BaseDataVariableType
                 DataType: BaseDataType
                 ReferenceType: HasSource
@@ -280,7 +280,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/SysTestOPCClient/Model/Variables/Config/PE_Bar/BarWidth"
+                  Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/PE_Bar/BarWidth"
         - Name: NextScreen
           Type: Button
           Children:
@@ -297,7 +297,7 @@ Children:
                 ReferenceType: HasParameter
                 ModellingRule: Optional
                 Value: {"LocaleId":"en-US","Text":"Screen{0}"}
-              - Name: ns=10;Source0
+              - Name: ns=16;Source0
                 Type: BaseDataVariableType
                 DataType: BaseDataType
                 ReferenceType: HasSource
@@ -352,7 +352,7 @@ Children:
               - Name: MethodContainer1
                 Type: BaseObjectType
                 Children:
-                - Name: ns=10;ObjectPointer
+                - Name: ns=16;ObjectPointer
                   Type: NodePointer
                   DataType: NodeId
                   Children:
@@ -370,7 +370,7 @@ Children:
                       DataType: DynamicLinkMode
                       ModellingRule: Optional
                       Value: 2
-                - Name: ns=10;Method
+                - Name: ns=16;Method
                   Type: BaseDataVariableType
                   DataType: String
                   Value: "ChangePanel"
@@ -380,7 +380,7 @@ Children:
                   - Name: NewPanel
                     Type: BaseDataVariableType
                     DataType: NodeId
-                    Description: {"NamespaceIndex":12,"TextId":"ChangePanelNewPanelDescription"}
+                    Description: {"NamespaceIndex":18,"TextId":"ChangePanelNewPanelDescription"}
                     Children:
                     - Name: NextScreen2
                       Type: NextScreen
@@ -397,7 +397,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/HomeScreen"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/HomeScreen"
                         - Name: Pair1
                           Type: ValueMapPair
                           Children:
@@ -408,7 +408,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen001"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen001"
                         - Name: Pair2
                           Type: ValueMapPair
                           Children:
@@ -419,7 +419,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen002"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen002"
                         - Name: Pair3
                           Type: ValueMapPair
                           Children:
@@ -430,7 +430,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen003"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen003"
                         - Name: Pair4
                           Type: ValueMapPair
                           Children:
@@ -441,7 +441,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen004_Read_DINT"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen004_Read_DINT"
                         - Name: Pair5
                           Type: ValueMapPair
                           Children:
@@ -452,7 +452,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen005_base_controls"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen005_base_controls"
                         - Name: Pair6
                           Type: ValueMapPair
                           Children:
@@ -463,7 +463,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen006_GraphicLibrary"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen006_GraphicLibrary"
                         - Name: Pair7
                           Type: ValueMapPair
                           Children:
@@ -474,7 +474,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen007_Tank"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen007_Tank"
                         - Name: Pair8
                           Type: ValueMapPair
                           Children:
@@ -485,7 +485,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen008_Trends"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen008_Trends"
                         - Name: Pair9
                           Type: ValueMapPair
                           Children:
@@ -496,7 +496,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen009"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen009"
                         - Name: Pair10
                           Type: ValueMapPair
                           Children:
@@ -507,7 +507,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen010"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen010"
                         - Name: Pair11
                           Type: ValueMapPair
                           Children:
@@ -518,7 +518,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen011_image"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen011_image"
                         - Name: Pair12
                           Type: ValueMapPair
                           Children:
@@ -529,7 +529,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen012_Write_ICE1"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen012_Write_ICE1"
                         - Name: Pair13
                           Type: ValueMapPair
                           Children:
@@ -540,7 +540,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen013_Image"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen013_Image"
                         - Name: Pair14
                           Type: ValueMapPair
                           Children:
@@ -551,7 +551,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen014_Image"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen014_Image"
                         - Name: Pair15
                           Type: ValueMapPair
                           Children:
@@ -562,7 +562,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen015_Image"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen015_Image"
                         - Name: Pair16
                           Type: ValueMapPair
                           Children:
@@ -573,7 +573,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen016_SVG"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen016_SVG"
                         - Name: Pair17
                           Type: ValueMapPair
                           Children:
@@ -584,7 +584,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen017_Trend_Oscillator"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen017_Trend_Oscillator"
                         - Name: Pair18
                           Type: ValueMapPair
                           Children:
@@ -595,7 +595,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen018_DataControlsLists"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen018_DataControlsLists"
                         - Name: Pair19
                           Type: ValueMapPair
                           Children:
@@ -606,7 +606,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen019_Charts"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen019_Charts"
                         - Name: Pair20
                           Type: ValueMapPair
                           Children:
@@ -617,7 +617,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen020_Safety"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen020_Safety"
                             Children:
                             - Name: ConditionalConverter1
                               Type: ConditionalConverter
@@ -630,7 +630,7 @@ Children:
                                 - Name: DynamicLink
                                   Type: DynamicLink
                                   DataType: NodePath
-                                  Value: "/Objects/SysTestOPCClient/Model/Variables/Config/SafetyCLX"
+                                  Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/SafetyCLX"
                         - Name: Pair21
                           Type: ValueMapPair
                           Children:
@@ -641,7 +641,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen021_PDF"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen021_PDF"
                         - Name: Pair22
                           Type: ValueMapPair
                           Children:
@@ -652,7 +652,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen022_Video"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen022_Video"
                         - Name: Pair23
                           Type: ValueMapPair
                           Children:
@@ -663,7 +663,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen023"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen023"
                         - Name: Pair24
                           Type: ValueMapPair
                           Children:
@@ -674,7 +674,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen024"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen024"
                         - Name: Pair25
                           Type: ValueMapPair
                           Children:
@@ -685,7 +685,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen025_datalogger"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen025_datalogger"
                         - Name: Pair26
                           Type: ValueMapPair
                           Children:
@@ -696,7 +696,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen026"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen026"
                         - Name: Pair27
                           Type: ValueMapPair
                           Children:
@@ -707,7 +707,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen027"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen027"
                         - Name: Pair28
                           Type: ValueMapPair
                           Children:
@@ -718,7 +718,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen028_read_STRING"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen028_read_STRING"
                         - Name: Pair29
                           Type: ValueMapPair
                           Children:
@@ -729,7 +729,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen029_read_REAL"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen029_read_REAL"
                         - Name: Pair30
                           Type: ValueMapPair
                           Children:
@@ -740,7 +740,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen030_read_BOOL"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen030_read_BOOL"
                         - Name: Pair31
                           Type: ValueMapPair
                           Children:
@@ -751,7 +751,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen031_read_INT"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen031_read_INT"
                         - Name: Pair32
                           Type: ValueMapPair
                           Children:
@@ -762,7 +762,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen032_read_SINT"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen032_read_SINT"
                         - Name: Pair33
                           Type: ValueMapPair
                           Children:
@@ -773,7 +773,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen033_read_LINT"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen033_read_LINT"
                         - Name: Pair34
                           Type: ValueMapPair
                           Children:
@@ -784,7 +784,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen034"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen034"
                         - Name: Pair35
                           Type: ValueMapPair
                           Children:
@@ -795,7 +795,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen035_ODBC_small"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen035_ODBC_small"
                         - Name: Pair36
                           Type: ValueMapPair
                           Children:
@@ -806,7 +806,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen036"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen036"
                         - Name: Pair37
                           Type: ValueMapPair
                           Children:
@@ -817,7 +817,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen037_read_UDT"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen037_read_UDT"
                         - Name: Pair38
                           Type: ValueMapPair
                           Children:
@@ -828,7 +828,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen038_read_ARRAY"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen038_read_ARRAY"
                         - Name: Pair39
                           Type: ValueMapPair
                           Children:
@@ -839,7 +839,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen039_Alarms"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen039_Alarms"
                         - Name: Pair40
                           Type: ValueMapPair
                           Children:
@@ -850,7 +850,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen040"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen040"
                         - Name: Pair41
                           Type: ValueMapPair
                           Children:
@@ -861,7 +861,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen041"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen041"
                         - Name: Pair42
                           Type: ValueMapPair
                           Children:
@@ -872,7 +872,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen042"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen042"
                         - Name: Pair43
                           Type: ValueMapPair
                           Children:
@@ -883,7 +883,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen043_Recipe"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen043_Recipe"
                         - Name: Pair44
                           Type: ValueMapPair
                           Children:
@@ -894,7 +894,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen044_sv"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen044_sv"
                         - Name: Pair45
                           Type: ValueMapPair
                           Children:
@@ -905,7 +905,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen045_SV_Widgets"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen045_SV_Widgets"
                         - Name: Pair46
                           Type: ValueMapPair
                           Children:
@@ -916,7 +916,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen046"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen046"
                         - Name: Pair47
                           Type: ValueMapPair
                           Children:
@@ -927,7 +927,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen047"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen047"
                         - Name: Pair48
                           Type: ValueMapPair
                           Children:
@@ -938,7 +938,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen048"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen048"
                         - Name: Pair49
                           Type: ValueMapPair
                           Children:
@@ -949,7 +949,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen049"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen049"
                         - Name: Pair50
                           Type: ValueMapPair
                           Children:
@@ -960,7 +960,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen050_WebBrowser"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen050_WebBrowser"
                         - Name: Pair51
                           Type: ValueMapPair
                           Children:
@@ -971,7 +971,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen051"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen051"
                         - Name: Pair52
                           Type: ValueMapPair
                           Children:
@@ -982,7 +982,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen052"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen052"
                         - Name: Pair53
                           Type: ValueMapPair
                           Children:
@@ -993,7 +993,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen053"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen053"
                         - Name: Pair54
                           Type: ValueMapPair
                           Children:
@@ -1004,7 +1004,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen054_Write_ICE2"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen054_Write_ICE2"
                         - Name: Pair55
                           Type: ValueMapPair
                           Children:
@@ -1015,7 +1015,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen055_Read_REAL_OPC"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen055_Read_REAL_OPC"
                         - Name: Pair56
                           Type: ValueMapPair
                           Children:
@@ -1026,7 +1026,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen056_Read_STRING_OPC"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen056_Read_STRING_OPC"
                         - Name: Pair57
                           Type: ValueMapPair
                           Children:
@@ -1037,7 +1037,7 @@ Children:
                           - Name: Value
                             Type: BaseDataVariableType
                             DataType: NodeId
-                            Value: "/Objects/SysTestOPCClient/UI/Screens/Screen057_Write_ICE1_OPC"
+                            Value: "/Objects/SysTestOPC_EEC_Client/UI/Screens/Screen057_Write_ICE1_OPC"
                       - Name: Source
                         Type: BaseDataVariableType
                         DataType: BaseDataType
@@ -1046,25 +1046,25 @@ Children:
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/NextScreenNumber"
+                          Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/NextScreenNumber"
                   - Name: AliasNode
                     Type: BaseDataVariableType
                     DataType: NodeId
-                    Description: {"NamespaceIndex":12,"TextId":"ChangePanelAliasNodeDescription"}
+                    Description: {"NamespaceIndex":18,"TextId":"ChangePanelAliasNodeDescription"}
                     ValueRank: ScalarOrOneDimension
               - Name: MethodContainer2
                 Type: BaseObjectType
                 Children:
-                - Name: ns=10;ObjectPointer
+                - Name: ns=16;ObjectPointer
                   Type: NodePointer
                   DataType: NodeId
-                  Value: "/Objects/SysTestOPCClient/NetLogic/Run-time scripts/CustomEventLogger/LogButtonClick"
+                  Value: "/Objects/SysTestOPC_EEC_Client/NetLogic/Run-time scripts/CustomEventLogger/LogButtonClick"
                   Children:
                   - Name: Kind
                     Type: PropertyType
                     DataType: NodeId
                     Value: "/Types/ObjectTypes/BaseObjectType"
-                - Name: ns=10;Method
+                - Name: ns=16;Method
                   Type: BaseDataVariableType
                   DataType: String
                   Value: "LogMessageButtonNextScreen"
@@ -1196,7 +1196,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/SysTestOPCClient/Model/Variables/Config/PE_Bar/BarWidth"
+          Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/PE_Bar/BarWidth"
       - Name: Height
         Type: BaseVariableType
         DataType: Size
@@ -1205,7 +1205,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/SysTestOPCClient/Model/Variables/Config/PE_Bar/BarHeight"
+          Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/PE_Bar/BarHeight"
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -1218,7 +1218,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/SysTestOPCClient/Model/Variables/Config/PE_Bar/BarTopMarginOffset"
+          Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/PE_Bar/BarTopMarginOffset"
       - Name: RightMargin
         Type: BaseVariableType
         DataType: Size
@@ -1268,7 +1268,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/Model/Variables/Config/PE_Bar/BarWidth"
+            Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/PE_Bar/BarWidth"
         - Name: Height
           Type: BaseVariableType
           DataType: Size
@@ -1277,7 +1277,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/Model/Variables/Config/PE_Bar/BarHeight"
+            Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/PE_Bar/BarHeight"
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment

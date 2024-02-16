@@ -190,7 +190,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/WebBrowser/EOI1/CoreButtonVisible"
+      Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/WebBrowser/EOI1/CoreButtonVisible"
   - Name: HorizontalAlignment
     Type: BaseVariableType
     DataType: HorizontalAlignment
@@ -239,7 +239,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Value: "/Objects/Commands/VariableCommands"
@@ -248,7 +248,7 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType"
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -258,22 +258,22 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/WebBrowser/EOI1/CoreButtonClicked"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/WebBrowser/EOI1/CoreButtonClicked"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Value: true
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
       - Name: MethodContainer2
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Value: "/Objects/Commands/VariableCommands"
@@ -282,7 +282,7 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType"
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -292,17 +292,17 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/Model/Variables/Features/WebBrowser/WB_Visible"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Features/WebBrowser/WB_Visible"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Value: true
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: MouseClickEvent

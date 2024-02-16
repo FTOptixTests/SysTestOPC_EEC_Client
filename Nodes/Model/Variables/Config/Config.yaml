@@ -15,7 +15,7 @@ Children:
       DataType: String
       ReferenceType: HasParameter
       Value: "{0}&&{1}&&{2}&&{3}"
-    - Name: ns=10;Source0
+    - Name: ns=16;Source0
       Type: BaseDataVariableType
       DataType: BaseDataType
       ReferenceType: HasSource
@@ -24,7 +24,7 @@ Children:
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../../CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/Cfg_Safety_CLX"
-    - Name: ns=10;Source1
+    - Name: ns=16;Source1
       Type: BaseDataVariableType
       DataType: BaseDataType
       ReferenceType: HasSource
@@ -33,7 +33,7 @@ Children:
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../../CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/Cfg_Safety_CLX"
-    - Name: ns=10;Source2
+    - Name: ns=16;Source2
       Type: BaseDataVariableType
       DataType: BaseDataType
       ReferenceType: HasSource
@@ -42,7 +42,7 @@ Children:
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../../../../CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/Cfg_Safety_CLX"
-    - Name: ns=10;Source3
+    - Name: ns=16;Source3
       Type: BaseDataVariableType
       DataType: BaseDataType
       ReferenceType: HasSource
@@ -55,3 +55,10 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 1
+- Name: LogFalse
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: LogTrue
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true

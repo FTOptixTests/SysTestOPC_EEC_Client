@@ -11,7 +11,7 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/SysTestOPCClient/DataStores/EmbeddedDatabase_AHV"
+    Value: "/Objects/SysTestOPC_EEC_Client/DataStores/EmbeddedDatabase_AHV"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -213,7 +213,7 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/SysTestOPCClient/DataStores/EmbeddedDatabase1"
+    Value: "/Objects/SysTestOPC_EEC_Client/DataStores/EmbeddedDatabase1"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -1048,7 +1048,7 @@ Children:
           DataType: DynamicLinkMode
           Value: 2
   - Class: Reference
-    Target: ns=14;i=21
+    Target: ns=20;i=21
     Direction: Forward
   - Name: LogLocalTime
     Type: PropertyType
@@ -1072,7 +1072,7 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/SysTestOPCClient/DataStores/EmbeddedDatabase1"
+    Value: "/Objects/SysTestOPC_EEC_Client/DataStores/EmbeddedDatabase1"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -3257,7 +3257,7 @@ Children:
           DataType: DynamicLinkMode
           Value: 2
   - Class: Reference
-    Target: ns=14;i=21
+    Target: ns=20;i=21
     Direction: Forward
   - Name: LogLocalTime
     Type: PropertyType
@@ -3281,7 +3281,7 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/SysTestOPCClient/DataStores/EmbeddedDatabase1"
+    Value: "/Objects/SysTestOPC_EEC_Client/DataStores/EmbeddedDatabase1"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -3616,7 +3616,7 @@ Children:
           DataType: DynamicLinkMode
           Value: 2
   - Class: Reference
-    Target: ns=14;i=21
+    Target: ns=20;i=21
     Direction: Forward
   - Name: LogLocalTime
     Type: PropertyType
@@ -3640,7 +3640,7 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/SysTestOPCClient/DataStores/ODBCDatabase1"
+    Value: "/Objects/SysTestOPC_EEC_Client/DataStores/ODBCDatabase1"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -3725,7 +3725,7 @@ Children:
           DataType: DynamicLinkMode
           Value: 2
   - Class: Reference
-    Target: ns=14;i=21
+    Target: ns=20;i=21
     Direction: Forward
   - Name: LogLocalTime
     Type: PropertyType

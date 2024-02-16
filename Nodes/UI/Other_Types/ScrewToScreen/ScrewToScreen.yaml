@@ -3725,7 +3725,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_DINT[0]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_DINT[0]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -3780,7 +3780,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_DINT[1]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_DINT[1]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -3834,7 +3834,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_DINT[2]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_DINT[2]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -3888,7 +3888,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_DINT[3]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_DINT[3]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -3942,7 +3942,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_DINT[4]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_DINT[4]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -3996,7 +3996,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_DINT[5]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_DINT[5]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -4050,7 +4050,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_DINT[6]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_DINT[6]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -4104,7 +4104,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_DINT[7]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_DINT[7]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -4158,7 +4158,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_DINT[8]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_DINT[8]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -4212,7 +4212,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_DINT[9]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_DINT[9]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -4360,7 +4360,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_REAL[0]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_REAL[0]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -4415,7 +4415,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_REAL[1]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_REAL[1]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -4469,7 +4469,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_REAL[2]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_REAL[2]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -4523,7 +4523,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_REAL[3]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_REAL[3]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -4577,7 +4577,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_REAL[4]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_REAL[4]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -4631,7 +4631,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_REAL[5]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_REAL[5]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -4685,7 +4685,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_REAL[6]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_REAL[6]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -4739,7 +4739,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_REAL[7]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_REAL[7]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -4793,7 +4793,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_REAL[8]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_REAL[8]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -4847,7 +4847,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_REAL[9]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_REAL[9]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -4995,7 +4995,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_INT[0]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_INT[0]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -5050,7 +5050,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_INT[1]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_INT[1]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -5104,7 +5104,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_INT[2]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_INT[2]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -5158,7 +5158,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_INT[3]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_INT[3]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -5212,7 +5212,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_INT[4]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_INT[4]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -5266,7 +5266,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_INT[5]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_INT[5]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -5320,7 +5320,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_INT[6]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_INT[6]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -5374,7 +5374,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_INT[7]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_INT[7]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -5428,7 +5428,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_INT[8]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_INT[8]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -5482,7 +5482,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_INT[9]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_INT[9]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -5630,7 +5630,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_SINT[0]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_SINT[0]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -5685,7 +5685,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_SINT[1]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_SINT[1]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -5739,7 +5739,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_SINT[2]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_SINT[2]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -5793,7 +5793,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_SINT[3]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_SINT[3]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -5847,7 +5847,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_SINT[4]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_SINT[4]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -5901,7 +5901,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_SINT[5]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_SINT[5]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -5955,7 +5955,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_SINT[6]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_SINT[6]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -6009,7 +6009,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_SINT[7]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_SINT[7]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -6063,7 +6063,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_SINT[8]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_SINT[8]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -6117,7 +6117,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_SINT[9]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_SINT[9]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -6266,7 +6266,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_LINT[0]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_LINT[0]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -6321,7 +6321,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_LINT[1]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_LINT[1]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -6375,7 +6375,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_LINT[2]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_LINT[2]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -6429,7 +6429,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_LINT[3]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_LINT[3]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -6483,7 +6483,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_LINT[4]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_LINT[4]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -6537,7 +6537,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_LINT[5]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_LINT[5]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -6591,7 +6591,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_LINT[6]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_LINT[6]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -6645,7 +6645,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_LINT[7]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_LINT[7]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -6699,7 +6699,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_LINT[8]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_LINT[8]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -6753,7 +6753,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_LINT[9]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_LINT[9]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -6901,7 +6901,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_BOOL/0/BOOL"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_BOOL/0/BOOL"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -6956,7 +6956,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_BOOL/1/BOOL"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_BOOL/1/BOOL"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -7010,7 +7010,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_BOOL/2/BOOL"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_BOOL/2/BOOL"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -7064,7 +7064,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_BOOL/3/BOOL"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_BOOL/3/BOOL"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -7118,7 +7118,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_BOOL/4/BOOL"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_BOOL/4/BOOL"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -7172,7 +7172,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_BOOL/5/BOOL"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_BOOL/5/BOOL"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -7226,7 +7226,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_BOOL/6/BOOL"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_BOOL/6/BOOL"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -7280,7 +7280,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_BOOL/7/BOOL"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_BOOL/7/BOOL"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -7334,7 +7334,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_BOOL/8/BOOL"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_BOOL/8/BOOL"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -7388,7 +7388,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_BOOL/9/BOOL"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_BOOL/9/BOOL"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -7536,7 +7536,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_STRING[0]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_STRING[0]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -7591,7 +7591,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_STRING[1]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_STRING[1]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -7645,7 +7645,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_STRING[2]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_STRING[2]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -7699,7 +7699,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_STRING[3]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_STRING[3]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -7753,7 +7753,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_STRING[4]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_STRING[4]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -7807,7 +7807,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_STRING[5]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_STRING[5]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -7861,7 +7861,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_STRING[6]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_STRING[6]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -7915,7 +7915,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_STRING[7]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_STRING[7]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -7969,7 +7969,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_STRING[8]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_STRING[8]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -8023,7 +8023,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_STRING[9]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrwToScrnRead_Tags_STRING[9]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -8210,7 +8210,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrewToScreen_DINT_PEExpected[0,4]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrewToScreen_DINT_PEExpected[0,4]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -8275,7 +8275,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrewToScreen_DINT_PEExpected[1,4]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrewToScreen_DINT_PEExpected[1,4]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -8340,7 +8340,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrewToScreen_DINT_PEExpected[2,4]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrewToScreen_DINT_PEExpected[2,4]"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -8405,7 +8405,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrewToScreen_DINT_PEExpected[3,4]"
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScrewToScreen_DINT_PEExpected[3,4]"
             Children:
             - Name: Mode
               Type: BaseVariableType

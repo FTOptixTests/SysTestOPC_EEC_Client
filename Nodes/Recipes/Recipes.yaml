@@ -30,45 +30,45 @@ Children:
       Type: BaseDataVariableType
       DataType: String
   - Class: Reference
-    Target: ns=32;i=27
+    Target: ns=38;i=27
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=33
+    Target: ns=38;i=33
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=31
+    Target: ns=38;i=31
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=44
+    Target: ns=38;i=44
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=35
+    Target: ns=38;i=35
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=37
+    Target: ns=38;i=37
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=76
+    Target: ns=38;i=76
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=53
+    Target: ns=38;i=53
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=62
+    Target: ns=38;i=62
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=55
+    Target: ns=38;i=55
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=58
+    Target: ns=38;i=58
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=60
+    Target: ns=38;i=60
     Direction: Forward
   - Name: TargetNode
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/MyRecipe_ICE1"
+    Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/MyRecipe_ICE1"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -101,7 +101,7 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/SysTestOPCClient/DataStores/DBRecipeCLX1"
+    Value: "/Objects/SysTestOPC_EEC_Client/DataStores/DBRecipeCLX1"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -136,45 +136,45 @@ Children:
       Type: BaseDataVariableType
       DataType: String
   - Class: Reference
-    Target: ns=32;i=27
+    Target: ns=38;i=27
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=33
+    Target: ns=38;i=33
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=31
+    Target: ns=38;i=31
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=44
+    Target: ns=38;i=44
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=35
+    Target: ns=38;i=35
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=37
+    Target: ns=38;i=37
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=76
+    Target: ns=38;i=76
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=53
+    Target: ns=38;i=53
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=62
+    Target: ns=38;i=62
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=55
+    Target: ns=38;i=55
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=58
+    Target: ns=38;i=58
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=60
+    Target: ns=38;i=60
     Direction: Forward
   - Name: TargetNode
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/MyRecipe_ICE1"
+    Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/MyRecipe_ICE1"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -206,7 +206,7 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/SysTestOPCClient/DataStores/DBRecipeCLX2"
+    Value: "/Objects/SysTestOPC_EEC_Client/DataStores/DBRecipeCLX2"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -241,45 +241,45 @@ Children:
       Type: BaseDataVariableType
       DataType: String
   - Class: Reference
-    Target: ns=32;i=27
+    Target: ns=38;i=27
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=33
+    Target: ns=38;i=33
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=31
+    Target: ns=38;i=31
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=44
+    Target: ns=38;i=44
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=35
+    Target: ns=38;i=35
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=37
+    Target: ns=38;i=37
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=76
+    Target: ns=38;i=76
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=53
+    Target: ns=38;i=53
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=62
+    Target: ns=38;i=62
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=55
+    Target: ns=38;i=55
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=58
+    Target: ns=38;i=58
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=60
+    Target: ns=38;i=60
     Direction: Forward
   - Name: TargetNode
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/MyRecipe_ICE1"
+    Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/MyRecipe_ICE1"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -311,7 +311,7 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/SysTestOPCClient/DataStores/DBRecipeCLX3"
+    Value: "/Objects/SysTestOPC_EEC_Client/DataStores/DBRecipeCLX3"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -346,45 +346,45 @@ Children:
       Type: BaseDataVariableType
       DataType: String
   - Class: Reference
-    Target: ns=32;i=27
+    Target: ns=38;i=27
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=33
+    Target: ns=38;i=33
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=31
+    Target: ns=38;i=31
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=44
+    Target: ns=38;i=44
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=35
+    Target: ns=38;i=35
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=37
+    Target: ns=38;i=37
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=76
+    Target: ns=38;i=76
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=53
+    Target: ns=38;i=53
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=62
+    Target: ns=38;i=62
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=55
+    Target: ns=38;i=55
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=58
+    Target: ns=38;i=58
     Direction: Forward
   - Class: Reference
-    Target: ns=32;i=60
+    Target: ns=38;i=60
     Direction: Forward
   - Name: TargetNode
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/MyRecipe_ICE1"
+    Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/MyRecipe_ICE1"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -416,7 +416,7 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/SysTestOPCClient/DataStores/DBRecipeCLX4"
+    Value: "/Objects/SysTestOPC_EEC_Client/DataStores/DBRecipeCLX4"
     Children:
     - Name: Kind
       Type: PropertyType

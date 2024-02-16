@@ -36,16 +36,16 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":49,"TextId":"Configuration"}
+          Value: {"NamespaceIndex":55,"TextId":"Configuration"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/SysTestOPCClient/UI/Other Types/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Configuration"
+          Value: "/Objects/SysTestOPC_EEC_Client/UI/Other Types/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Configuration"
           Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":71,"Namespace":13}
+            Value: {"Id":71,"Namespace":19}
         - Name: AliasNode
           Type: BaseDataVariableType
           DataType: NodeId
@@ -61,16 +61,16 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":49,"TextId":"ProductInformation"}
+          Value: {"NamespaceIndex":55,"TextId":"ProductInformation"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/SysTestOPCClient/UI/Other Types/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Product_Information"
+          Value: "/Objects/SysTestOPC_EEC_Client/UI/Other Types/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Product_Information"
           Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":71,"Namespace":13}
+            Value: {"Id":71,"Namespace":19}
         - Name: AliasNode
           Type: BaseDataVariableType
           DataType: NodeId
@@ -86,16 +86,16 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":49,"TextId":"Diagnostics"}
+          Value: {"NamespaceIndex":55,"TextId":"Diagnostics"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/SysTestOPCClient/UI/Other Types/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Diagnostics"
+          Value: "/Objects/SysTestOPC_EEC_Client/UI/Other Types/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Diagnostics"
           Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":71,"Namespace":13}
+            Value: {"Id":71,"Namespace":19}
         - Name: AliasNode
           Type: BaseDataVariableType
           DataType: NodeId
@@ -113,7 +113,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":6,"Namespace":13}
+        Value: {"Id":6,"Namespace":19}
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -146,15 +146,15 @@ Children:
       Type: BaseDataVariableType
       DataType: Int32
     - Class: Reference
-      Target: ns=12;i=1181
+      Target: ns=18;i=1181
       Direction: Forward
     - Class: Reference
-      Target: ns=12;i=1183
+      Target: ns=18;i=1183
       Direction: Forward
   - Name: SystemNode
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/SysTestOPCClient/System/System"
+    Value: "/Objects/SysTestOPC_EEC_Client/System/System"
     Children:
     - Name: Kind
       Type: PropertyType

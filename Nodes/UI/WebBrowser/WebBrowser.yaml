@@ -13,15 +13,15 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/WebBrowser/URL/ScreenChgFullURL"
+      Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/WebBrowser/URL/ScreenChgFullURL"
   - Class: Reference
-    Target: ns=12;i=354
+    Target: ns=18;i=354
     Direction: Forward
   - Class: Reference
-    Target: ns=12;i=356
+    Target: ns=18;i=356
     Direction: Forward
   - Class: Reference
-    Target: ns=12;i=358
+    Target: ns=18;i=358
     Direction: Forward
   - Name: Width
     Type: BaseVariableType
@@ -43,10 +43,36 @@ Children:
     DataType: Boolean
     Value: true
     Children:
-    - Name: DynamicLink
-      Type: DynamicLink
-      DataType: NodePath
-      Value: "/Objects/SysTestOPCClient/Model/Variables/Features/WebBrowser/WB_Visible"
+    - Name: ConditionalConverter1
+      Type: ConditionalConverter
+      Children:
+      - Name: Condition
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/IsWeb"
+      - Name: TrueValue
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasParameter
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/LogFalse"
+      - Name: FalseValue
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasParameter
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Features/WebBrowser/WB_Visible"
   - Name: Enabled
     Type: BaseDataVariableType
     DataType: Boolean
@@ -55,7 +81,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/SysTestOPCClient/Model/Variables/Features/WebBrowser/WB_Visible"
+      Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Features/WebBrowser/WB_Visible"
   - Name: HorizontalAlignment
     Type: BaseVariableType
     DataType: HorizontalAlignment
@@ -73,15 +99,15 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/WebBrowser/URL/CoreTestsFullURL"
+      Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/WebBrowser/URL/CoreTestsFullURL"
   - Class: Reference
-    Target: ns=12;i=354
+    Target: ns=18;i=354
     Direction: Forward
   - Class: Reference
-    Target: ns=12;i=356
+    Target: ns=18;i=356
     Direction: Forward
   - Class: Reference
-    Target: ns=12;i=358
+    Target: ns=18;i=358
     Direction: Forward
   - Name: Width
     Type: BaseVariableType
@@ -101,7 +127,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/SysTestOPCClient/Model/Variables/Features/WebBrowser/WB_Visible"
+      Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Features/WebBrowser/WB_Visible"
   - Name: Enabled
     Type: BaseDataVariableType
     DataType: Boolean
@@ -110,7 +136,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "/Objects/SysTestOPCClient/Model/Variables/Features/WebBrowser/WB_Visible"
+      Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Features/WebBrowser/WB_Visible"
 - Name: ScrollScaling
   Id: g=a8351d4e121e9aad7779ac722150cfde
   Supertype: ScrollView

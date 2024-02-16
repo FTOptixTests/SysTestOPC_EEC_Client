@@ -1538,7 +1538,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"ad43b291173ead2b9eb2de570e9edc60","Namespace":49}
+      Value: {"IdType":2,"Id":"ad43b291173ead2b9eb2de570e9edc60","Namespace":55}
   - Name: CM_VSD_Val_Notify
     Type: Alias
     DataType: NodeId
@@ -1833,7 +1833,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"13472877947fab9d96e9a1f3d5a68bb4","Namespace":49}
+      Value: {"IdType":2,"Id":"13472877947fab9d96e9a1f3d5a68bb4","Namespace":55}
   - Name: CM_Vlv_Val_Notify
     Type: Alias
     DataType: NodeId
@@ -3468,7 +3468,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"65f11ff70cbe0aadd1f09f8f793b10c5","Namespace":49}
+      Value: {"IdType":2,"Id":"65f11ff70cbe0aadd1f09f8f793b10c5","Namespace":55}
   - Name: CM_AIn_Val_Notify
     Type: Alias
     DataType: NodeId

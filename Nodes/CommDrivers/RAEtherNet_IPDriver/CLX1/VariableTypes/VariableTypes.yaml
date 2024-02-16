@@ -1,10 +1,10 @@
 Name: VariableTypes
 Type: FolderType
 Children:
-- Name: ns=49;ScreenToScrew_Expected_Type04
+- Name: ns=55;ScreenToScrew_Expected_Type04
   Id: g=bf761f7a579d0d829da4eafee68f99f0
   Supertype: TagStructure
-  DataType: ns=49;ScreenToScrew_Expected_Type04
+  DataType: ns=55;ScreenToScrew_Expected_Type04
   ValueRank: Any
   Children:
   - Name: Tag00
@@ -2036,8 +2036,8 @@ Children:
         DataType: String
         Value: "Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -2088,8 +2088,8 @@ Children:
         DataType: String
         Value: "Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -2416,8 +2416,8 @@ Children:
         DataType: String
         Value: "Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -2468,8 +2468,8 @@ Children:
         DataType: String
         Value: "Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -2796,8 +2796,8 @@ Children:
         DataType: String
         Value: "Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -2848,8 +2848,8 @@ Children:
         DataType: String
         Value: "Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -3224,8 +3224,8 @@ Children:
         DataType: String
         Value: "Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -3276,8 +3276,8 @@ Children:
         DataType: String
         Value: "Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -3604,8 +3604,8 @@ Children:
         DataType: String
         Value: "Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -3656,8 +3656,8 @@ Children:
         DataType: String
         Value: "Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -4584,8 +4584,8 @@ Children:
       DataType: String
       Value: "Wrk_Notify"
   - Name: Wrk_ScanT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -6210,8 +6210,8 @@ Children:
         DataType: String
         Value: "Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -6262,8 +6262,8 @@ Children:
         DataType: String
         Value: "Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -6710,8 +6710,8 @@ Children:
         DataType: String
         Value: "Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -6762,8 +6762,8 @@ Children:
         DataType: String
         Value: "Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -7090,8 +7090,8 @@ Children:
         DataType: String
         Value: "Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -7142,8 +7142,8 @@ Children:
         DataType: String
         Value: "Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -7686,8 +7686,8 @@ Children:
         DataType: String
         Value: "Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -7738,8 +7738,8 @@ Children:
         DataType: String
         Value: "Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -8066,8 +8066,8 @@ Children:
         DataType: String
         Value: "Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -8118,8 +8118,8 @@ Children:
         DataType: String
         Value: "Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -9286,8 +9286,8 @@ Children:
       DataType: String
       Value: "Val_SpeedRef"
   - Name: Wrk_AccelT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -9338,8 +9338,8 @@ Children:
       DataType: String
       Value: "Wrk_Bypass"
   - Name: Wrk_DecelT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -9446,8 +9446,8 @@ Children:
       DataType: String
       Value: "Wrk_ResetONS"
   - Name: Wrk_ResetT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -9522,8 +9522,8 @@ Children:
       DataType: String
       Value: "Wrk_SpeedRef"
   - Name: Wrk_StartT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -9566,8 +9566,8 @@ Children:
         DataType: String
         Value: "TT"
   - Name: Wrk_StopT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -9940,8 +9940,8 @@ Children:
       DataType: String
       Value: "Wrk_Alm"
   - Name: Wrk_AlmMinOnT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -9992,8 +9992,8 @@ Children:
       DataType: String
       Value: "Wrk_Inhibited"
   - Name: Wrk_MinDurationT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -11040,8 +11040,8 @@ Children:
         DataType: String
         Value: "Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -11092,8 +11092,8 @@ Children:
         DataType: String
         Value: "Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -11524,8 +11524,8 @@ Children:
         DataType: String
         Value: "Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -11576,8 +11576,8 @@ Children:
         DataType: String
         Value: "Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -11904,8 +11904,8 @@ Children:
         DataType: String
         Value: "Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -11956,8 +11956,8 @@ Children:
         DataType: String
         Value: "Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -13048,8 +13048,8 @@ Children:
         DataType: String
         Value: "Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -13100,8 +13100,8 @@ Children:
         DataType: String
         Value: "Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -13192,8 +13192,8 @@ Children:
       DataType: String
       Value: "Wrk_Fault"
   - Name: Wrk_FullStallT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -13276,8 +13276,8 @@ Children:
       DataType: String
       Value: "Wrk_OpenFdbk"
   - Name: Wrk_SimCloseT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -13320,8 +13320,8 @@ Children:
         DataType: String
         Value: "TT"
   - Name: Wrk_SimOpenT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -13364,8 +13364,8 @@ Children:
         DataType: String
         Value: "TT"
   - Name: Wrk_TransitStallT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -13469,10 +13469,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "STRING"
-- Name: ns=49;ScatteredREALs1
+- Name: ns=55;ScatteredREALs1
   Id: g=12eb1d50db5cc232c5147630ff817fbd
   Supertype: TagStructure
-  DataType: ns=49;ScatteredREALs1
+  DataType: ns=55;ScatteredREALs1
   ValueRank: Any
   Children:
   - Name: R00
@@ -13975,10 +13975,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "B26"
-- Name: ns=49;HB_EOI
+- Name: ns=55;HB_EOI
   Id: g=5693c585313cd0958ecfa8d98721eb29
   Supertype: TagStructure
-  DataType: ns=49;HB_EOI
+  DataType: ns=55;HB_EOI
   ValueRank: Any
   Children:
   - Name: HB1
@@ -14014,8 +14014,8 @@ Children:
       DataType: String
       Value: "ONS"
   - Name: Timer
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -14279,10 +14279,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "L26"
-- Name: ns=49;ScatteredSTRINGs
+- Name: ns=55;ScatteredSTRINGs
   Id: g=988f8ef8c8fcdc89df8a96e622aabe0c
   Supertype: TagStructure
-  DataType: ns=49;ScatteredSTRINGs
+  DataType: ns=55;ScatteredSTRINGs
   ValueRank: Any
   Children:
   - Name: S00
@@ -14847,10 +14847,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "TRIP_Input"
-- Name: ns=49;TIMER
+- Name: ns=55;TIMER
   Id: g=46b1ad07a022f9dc7df9501a35303e28
   Supertype: TagStructure
-  DataType: ns=49;TIMER
+  DataType: ns=55;TIMER
   ValueRank: Any
   Children:
   - Name: ACC

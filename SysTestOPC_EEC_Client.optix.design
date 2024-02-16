@@ -1,0 +1,97 @@
+Project:
+ Name: SysTestOPC_EEC_Client_Design
+ ProjectNamespaceIndex: 23
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.4
+ CoreVersion: 3.0
+ Dependencies:
+  2:
+   Uri: SysTestOPC_EEC_Client
+   RelativePath: SysTestOPC_EEC_Client.optix
+  3:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#7181ebf12a47bfac9347b12e3b3f5303#Uniqo_EOI'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
+  4:
+   Uri: '7181ebf12a47bfac9347b12e3b3f5303#Uniqo_EOI'
+   ServerUri: 7181ebf12a47bfac9347b12e3b3f5303
+  5:
+   Uri: '18d285e5832d698339a2ad059b917ab5#Uniqo_EOI'
+   ServerUri: 18d285e5832d698339a2ad059b917ab5
+  6:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#18d285e5832d698339a2ad059b917ab5#Uniqo_EOI'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
+  7:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#urn:VV5:FactoryTalkOptixHMI:FTOptixApplication'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
+  8:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#Temporary'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
+  9:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#SysTestOPCApp'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
+  10:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#urn:DESKTOP-967M8HV:FactoryTalkOptixHMI:FTOptixApplication'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
+  11:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#b8f6b84affbcadc5cf08938326c70b9a#7181ebf12a47bfac9347b12e3b3f5303#Uniqo_EOI'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
+  12:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#b8f6b84affbcadc5cf08938326c70b9a#18d285e5832d698339a2ad059b917ab5#Uniqo_EOI'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
+  13:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#b8f6b84affbcadc5cf08938326c70b9a#urn:VV5:FactoryTalkOptixHMI:FTOptixApplication'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
+  14:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#b8f6b84affbcadc5cf08938326c70b9a#Temporary'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
+  15:
+   Uri: 'b8f6b84affbcadc5cf08938326c70b9a#b8f6b84affbcadc5cf08938326c70b9a#SysTestOPCApp'
+   ServerUri: b8f6b84affbcadc5cf08938326c70b9a
+  16:
+   Uri: 'urn:FTOptix:Core:Net'
+   Module: FTOptix.Core.Net
+   Version: 1.2
+  17:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 3.1
+  18:
+   Uri: 'urn:FTOptix:CoreBase:Net'
+   Module: FTOptix.CoreBase.Net
+   Version: 1.1
+  19:
+   Uri: 'urn:FTOptix:TagImporter'
+   Module: FTOptix.TagImporter
+   Version: 1.0
+  20:
+   Uri: 'urn:FTOptix:OPCUAImporter'
+   Module: FTOptix.OPCUAImporter
+   Version: 1.0
+  21:
+   Uri: 'urn:FTOptix:RAEtherNetIPTagImporter'
+   Module: FTOptix.RAEtherNetIPTagImporter
+   Version: 1.0
+  22:
+   Uri: 'urn:FTOptix:NetLogic'
+   Module: FTOptix.NetLogic
+   Version: 3.0
+ Statistics:
+  TotalNodeCount: 22
+  Objects: 5
+  ObjectTypes: 0
+  Variables: 17
+  VariableTypes: 0
+  DataTypes: 0
+  Methods: 0
+  References: 0
+  ReferenceTypes: 0
+  Files: 5
+ Nodes:
+ - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver/CLX1/TagImporter.yaml
+ - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver/CLX2/TagImporter.yaml
+ - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver/CLX3/TagImporter.yaml
+ - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver/CLX4/TagImporter.yaml
+ - File: 'DesignTimeNodes/OPC-UA/OPCUAClient1/OPCUATagImporter.yaml'

@@ -12,7 +12,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":49,"TextId":"TimeSynchronizationMode"}
+      Value: {"NamespaceIndex":55,"TextId":"TimeSynchronizationMode"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -62,7 +62,7 @@ Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":49,"TextId":"AutoMode"}
+        Value: {"NamespaceIndex":55,"TextId":"AutoMode"}
       - Name: ModifiedValueHandler1
         Type: EventHandler
         Children:
@@ -76,7 +76,7 @@ Children:
           - Name: MethodContainer1
             Type: BaseObjectType
             Children:
-            - Name: ns=10;ObjectPointer
+            - Name: ns=16;ObjectPointer
               Type: NodePointer
               DataType: NodeId
               Children:
@@ -94,7 +94,7 @@ Children:
                   DataType: DynamicLinkMode
                   ModellingRule: Optional
                   Value: 2
-            - Name: ns=10;Method
+            - Name: ns=16;Method
               Type: BaseDataVariableType
               DataType: String
               Value: "SynchronizationModeChanged"
@@ -165,7 +165,7 @@ Children:
                 ReferenceType: HasParameter
                 ModellingRule: Optional
                 Value: "{0}==2 || {1}==2"
-              - Name: ns=10;Source0
+              - Name: ns=16;Source0
                 Type: BaseDataVariableType
                 DataType: BaseDataType
                 ReferenceType: HasSource
@@ -174,7 +174,7 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../../../../SystemNode/DateAndTime/AvailableSynchronizationModes[0]"
-              - Name: ns=10;Source1
+              - Name: ns=16;Source1
                 Type: BaseDataVariableType
                 DataType: BaseDataType
                 ReferenceType: HasSource
@@ -188,13 +188,13 @@ Children:
             DataType: LocalizedText
             ReferenceType: HasParameter
             ModellingRule: Optional
-            Value: {"NamespaceIndex":49,"TextId":"PLC"}
+            Value: {"NamespaceIndex":55,"TextId":"PLC"}
           - Name: FalseValue
             Type: BaseDataVariableType
             DataType: LocalizedText
             ReferenceType: HasParameter
             ModellingRule: Optional
-            Value: {"NamespaceIndex":49,"TextId":"ManualMode"}
+            Value: {"NamespaceIndex":55,"TextId":"ManualMode"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -212,7 +212,7 @@ Children:
           - Name: MethodContainer1
             Type: BaseObjectType
             Children:
-            - Name: ns=10;ObjectPointer
+            - Name: ns=16;ObjectPointer
               Type: NodePointer
               DataType: NodeId
               Children:
@@ -230,7 +230,7 @@ Children:
                   DataType: DynamicLinkMode
                   ModellingRule: Optional
                   Value: 2
-            - Name: ns=10;Method
+            - Name: ns=16;Method
               Type: BaseDataVariableType
               DataType: String
               Value: "SynchronizationModeChanged"
@@ -291,7 +291,7 @@ Children:
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":49,"TextId":"RemoteNTPServer"}
+          Value: {"NamespaceIndex":55,"TextId":"RemoteNTPServer"}
       - Name: RemoteNTPServerTextBox
         Type: TextBox
         Children:
@@ -358,7 +358,7 @@ Children:
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":49,"TextId":"PLCaddress"}
+          Value: {"NamespaceIndex":55,"TextId":"PLCaddress"}
         - Name: Visible
           Type: BaseDataVariableType
           DataType: Boolean
@@ -429,7 +429,7 @@ Children:
             ReferenceType: HasParameter
             ModellingRule: Optional
             Value: "{0}==2 || {1}==2"
-          - Name: ns=10;Source0
+          - Name: ns=16;Source0
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
@@ -438,7 +438,7 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "../../../../../SystemNode/DateAndTime/AvailableSynchronizationModes[0]"
-          - Name: ns=10;Source1
+          - Name: ns=16;Source1
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
@@ -478,7 +478,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":49,"TextId":"TimeZone"}
+      Value: {"NamespaceIndex":55,"TextId":"TimeZone"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -565,7 +565,7 @@ Children:
         DataType: NodePath
         Value: "{Item}@DisplayName"
     - Class: Reference
-      Target: ns=12;i=480
+      Target: ns=18;i=480
       Direction: Forward
   - Name: TimeZonesEnumeration
     Type: BaseObjectType
@@ -575,7 +575,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":49,"TextId":"DateAndTime"}
+      Value: {"NamespaceIndex":55,"TextId":"DateAndTime"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -638,7 +638,7 @@ Children:
           ReferenceType: HasParameter
           ModellingRule: Optional
           Value: "{0}==0"
-        - Name: ns=10;Source0
+        - Name: ns=16;Source0
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource
@@ -653,7 +653,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":49,"TextId":"LocalNTPServerInterfaces"}
+      Value: {"NamespaceIndex":55,"TextId":"LocalNTPServerInterfaces"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -672,7 +672,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":49,"TextId":"LAN"}
+      Value: {"NamespaceIndex":55,"TextId":"LAN"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -687,14 +687,14 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":690,"Namespace":42}
+        Value: {"Id":690,"Namespace":48}
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
         - Name: MethodContainer1
           Type: BaseObjectType
           Children:
-          - Name: ns=13;ObjectPointer
+          - Name: ns=19;ObjectPointer
             Type: NodePointer
             DataType: NodeId
             Children:
@@ -711,7 +711,7 @@ Children:
                 Type: BaseVariableType
                 DataType: DynamicLinkMode
                 Value: 2
-          - Name: ns=13;Method
+          - Name: ns=19;Method
             Type: BaseDataVariableType
             DataType: String
             Value: "LocalNTPServerOptionsChanged"
@@ -758,7 +758,7 @@ Children:
         - Name: MethodContainer1
           Type: BaseObjectType
           Children:
-          - Name: ns=10;ObjectPointer
+          - Name: ns=16;ObjectPointer
             Type: NodePointer
             DataType: NodeId
             Children:
@@ -775,7 +775,7 @@ Children:
                 Type: BaseVariableType
                 DataType: DynamicLinkMode
                 Value: 2
-          - Name: ns=10;Method
+          - Name: ns=16;Method
             Type: BaseDataVariableType
             DataType: String
             Value: "LocalNTPServerOptionsChanged"
@@ -818,7 +818,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":49,"TextId":"WAN"}
+      Value: {"NamespaceIndex":55,"TextId":"WAN"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -840,7 +840,7 @@ Children:
           ReferenceType: HasParameter
           ModellingRule: Optional
           Value: "{0}==2"
-        - Name: ns=10;Source0
+        - Name: ns=16;Source0
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource
@@ -855,14 +855,14 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":690,"Namespace":42}
+        Value: {"Id":690,"Namespace":48}
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
         - Name: MethodContainer1
           Type: BaseObjectType
           Children:
-          - Name: ns=13;ObjectPointer
+          - Name: ns=19;ObjectPointer
             Type: NodePointer
             DataType: NodeId
             Children:
@@ -879,7 +879,7 @@ Children:
                 Type: BaseVariableType
                 DataType: DynamicLinkMode
                 Value: 2
-          - Name: ns=13;Method
+          - Name: ns=19;Method
             Type: BaseDataVariableType
             DataType: String
             Value: "LocalNTPServerOptionsChanged"
@@ -926,7 +926,7 @@ Children:
         - Name: MethodContainer1
           Type: BaseObjectType
           Children:
-          - Name: ns=10;ObjectPointer
+          - Name: ns=16;ObjectPointer
             Type: NodePointer
             DataType: NodeId
             Children:
@@ -943,7 +943,7 @@ Children:
                 Type: BaseVariableType
                 DataType: DynamicLinkMode
                 Value: 2
-          - Name: ns=10;Method
+          - Name: ns=16;Method
             Type: BaseDataVariableType
             DataType: String
             Value: "LocalNTPServerOptionsChanged"
@@ -1032,7 +1032,7 @@ Children:
       - Name: Path
         Type: BaseDataVariableType
         DataType: ResourceUri
-        Value: "ns=49;%PROJECTDIR%/WarningIcon.svg"
+        Value: "ns=55;%PROJECTDIR%/WarningIcon.svg"
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -1069,7 +1069,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":49,"TextId":"RebootToCommitChanges"}
+        Value: {"NamespaceIndex":55,"TextId":"RebootToCommitChanges"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -1119,7 +1119,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":49,"TextId":"Reboot"}
+      Value: {"NamespaceIndex":55,"TextId":"Reboot"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1153,7 +1153,7 @@ Children:
         - Name: MethodContainer1
           Type: BaseObjectType
           Children:
-          - Name: ns=10;ObjectPointer
+          - Name: ns=16;ObjectPointer
             Type: NodePointer
             DataType: NodeId
             Children:
@@ -1171,7 +1171,7 @@ Children:
                 DataType: DynamicLinkMode
                 ModellingRule: Optional
                 Value: 2
-          - Name: ns=10;Method
+          - Name: ns=16;Method
             Type: BaseDataVariableType
             DataType: String
             Value: "Reboot_Device"
@@ -1235,7 +1235,7 @@ Children:
   - Name: SystemNode
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/SysTestOPCClient/System/System"
+    Value: "/Objects/SysTestOPC_EEC_Client/System/System"
     Children:
     - Name: Kind
       Type: PropertyType

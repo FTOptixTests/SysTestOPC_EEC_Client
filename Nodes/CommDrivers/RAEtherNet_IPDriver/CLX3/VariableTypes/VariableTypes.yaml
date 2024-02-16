@@ -1171,10 +1171,10 @@ Children:
               Type: BaseDataVariableType
               DataType: String
               Value: "L5"
-- Name: ns=49;ScatteredREALs2
+- Name: ns=55;ScatteredREALs2
   Id: g=1b688174fb9d7cf5499bbe9e9a5697f0
   Supertype: TagStructure
-  DataType: ns=49;ScatteredREALs2
+  DataType: ns=55;ScatteredREALs2
   ValueRank: Any
   Children:
   - Name: R00
@@ -1393,10 +1393,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "R26"
-- Name: ns=49;HB_EOI2
+- Name: ns=55;HB_EOI2
   Id: g=0ea1ce351cda46fac92111833998d437
   Supertype: TagStructure
-  DataType: ns=49;HB_EOI2
+  DataType: ns=55;HB_EOI2
   ValueRank: Any
   Children:
   - Name: HB1
@@ -1432,8 +1432,8 @@ Children:
       DataType: String
       Value: "ONS"
   - Name: Timer
-    Type: ns=49;TIMER2
-    DataType: ns=49;TIMER2
+    Type: ns=55;TIMER2
+    DataType: ns=55;TIMER2
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -2367,10 +2367,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "TRIP_Input"
-- Name: ns=49;ScatteredSTRINGs2
+- Name: ns=55;ScatteredSTRINGs2
   Id: g=6cc66e1a20e3a261bf00bdfc5b38c4df
   Supertype: TagStructure
-  DataType: ns=49;ScatteredSTRINGs2
+  DataType: ns=55;ScatteredSTRINGs2
   ValueRank: Any
   Children:
   - Name: S00
@@ -3081,10 +3081,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Feedback"
-- Name: ns=49;ScreenToScrew_Expected_Type042
+- Name: ns=55;ScreenToScrew_Expected_Type042
   Id: g=1807c81566f44b99e3522b7617c0ff26
   Supertype: TagStructure
-  DataType: ns=49;ScreenToScrew_Expected_Type042
+  DataType: ns=55;ScreenToScrew_Expected_Type042
   ValueRank: Any
   Children:
   - Name: Tag00
@@ -3143,10 +3143,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Tag06"
-- Name: ns=49;TIMER2
+- Name: ns=55;TIMER2
   Id: g=216a99f660eebd87066df9f52439e4be
   Supertype: TagStructure
-  DataType: ns=49;TIMER2
+  DataType: ns=55;TIMER2
   ValueRank: Any
   Children:
   - Name: ACC

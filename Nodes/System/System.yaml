@@ -170,12 +170,12 @@ Children:
       DataType: Boolean
       AccessLevel: Read
   - Class: Reference
-    Target: ns=24;i=17
+    Target: ns=30;i=17
     Direction: Forward
   - Name: RebootRequired
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
   - Class: Reference
-    Target: ns=24;i=100
+    Target: ns=30;i=100
     Direction: Forward

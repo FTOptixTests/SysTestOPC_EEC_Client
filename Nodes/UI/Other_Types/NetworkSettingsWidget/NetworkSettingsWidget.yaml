@@ -36,11 +36,11 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":49,"TextId":"LAN"}
+          Value: {"NamespaceIndex":55,"TextId":"LAN"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/SysTestOPCClient/UI/Other Types/NetworkSettingsWidget/NetworkSettingsWidgetComponents/LAN"
+          Value: "/Objects/SysTestOPC_EEC_Client/UI/Other Types/NetworkSettingsWidget/NetworkSettingsWidgetComponents/LAN"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -52,11 +52,11 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":49,"TextId":"WAN"}
+          Value: {"NamespaceIndex":55,"TextId":"WAN"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/SysTestOPCClient/UI/Other Types/NetworkSettingsWidget/NetworkSettingsWidgetComponents/WAN"
+          Value: "/Objects/SysTestOPC_EEC_Client/UI/Other Types/NetworkSettingsWidget/NetworkSettingsWidgetComponents/WAN"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -99,10 +99,10 @@ Children:
       Type: BaseDataVariableType
       DataType: Int32
     - Class: Reference
-      Target: ns=12;i=1181
+      Target: ns=18;i=1181
       Direction: Forward
     - Class: Reference
-      Target: ns=12;i=1183
+      Target: ns=18;i=1183
       Direction: Forward
   - Name: BottomBar
     Type: Panel
@@ -233,7 +233,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":49,"TextId":"Reboot"}
+        Value: {"NamespaceIndex":55,"TextId":"Reboot"}
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -262,7 +262,7 @@ Children:
           - Name: MethodContainer1
             Type: BaseObjectType
             Children:
-            - Name: ns=10;ObjectPointer
+            - Name: ns=16;ObjectPointer
               Type: NodePointer
               DataType: NodeId
               Children:
@@ -280,7 +280,7 @@ Children:
                   DataType: DynamicLinkMode
                   ModellingRule: Optional
                   Value: 2
-            - Name: ns=10;Method
+            - Name: ns=16;Method
               Type: BaseDataVariableType
               DataType: String
               Value: "Reboot"
@@ -332,7 +332,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":49,"TextId":"Apply"}
+        Value: {"NamespaceIndex":55,"TextId":"Apply"}
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -361,7 +361,7 @@ Children:
           - Name: MethodContainer1
             Type: BaseObjectType
             Children:
-            - Name: ns=10;ObjectPointer
+            - Name: ns=16;ObjectPointer
               Type: NodePointer
               DataType: NodeId
               Children:
@@ -379,7 +379,7 @@ Children:
                   DataType: DynamicLinkMode
                   ModellingRule: Optional
                   Value: 2
-            - Name: ns=10;Method
+            - Name: ns=16;Method
               Type: BaseDataVariableType
               DataType: String
               Value: "ApplyNetworkConfiguration"
@@ -426,7 +426,7 @@ Children:
       - Name: Path
         Type: BaseDataVariableType
         DataType: ResourceUri
-        Value: "ns=49;%PROJECTDIR%/WarningIcon.svg"
+        Value: "ns=55;%PROJECTDIR%/WarningIcon.svg"
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -457,7 +457,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":49,"TextId":"RebootToCommitChanges"}
+        Value: {"NamespaceIndex":55,"TextId":"RebootToCommitChanges"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -500,7 +500,7 @@ Children:
   - Name: SystemNode
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/SysTestOPCClient/System/System"
+    Value: "/Objects/SysTestOPC_EEC_Client/System/System"
     Children:
     - Name: Kind
       Type: PropertyType

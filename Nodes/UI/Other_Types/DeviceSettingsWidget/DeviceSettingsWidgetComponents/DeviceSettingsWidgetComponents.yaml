@@ -23,7 +23,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":49,"TextId":"ApplicationName"}
+      Value: {"NamespaceIndex":55,"TextId":"ApplicationName"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -86,7 +86,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":49,"TextId":"DeviceName"}
+      Value: {"NamespaceIndex":55,"TextId":"DeviceName"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -168,7 +168,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":49,"TextId":"DisableApplicationAndFirmwareUpdates"}
+      Value: {"NamespaceIndex":55,"TextId":"DisableApplicationAndFirmwareUpdates"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -292,7 +292,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":49,"TextId":"Reboot"}
+        Value: {"NamespaceIndex":55,"TextId":"Reboot"}
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -325,7 +325,7 @@ Children:
           - Name: MethodContainer1
             Type: BaseObjectType
             Children:
-            - Name: ns=10;ObjectPointer
+            - Name: ns=16;ObjectPointer
               Type: NodePointer
               DataType: NodeId
               Children:
@@ -343,7 +343,7 @@ Children:
                   DataType: DynamicLinkMode
                   ModellingRule: Optional
                   Value: 2
-            - Name: ns=10;Method
+            - Name: ns=16;Method
               Type: BaseDataVariableType
               DataType: String
               Value: "Reboot"
@@ -394,7 +394,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":49,"TextId":"RebootToCommitChanges"}
+        Value: {"NamespaceIndex":55,"TextId":"RebootToCommitChanges"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -429,7 +429,7 @@ Children:
       - Name: Path
         Type: BaseDataVariableType
         DataType: ResourceUri
-        Value: "ns=49;%PROJECTDIR%/WarningIcon.svg"
+        Value: "ns=55;%PROJECTDIR%/WarningIcon.svg"
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -495,7 +495,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":49,"TextId":"CatalogNumber"}
+      Value: {"NamespaceIndex":55,"TextId":"CatalogNumber"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -547,7 +547,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":49,"TextId":"ProductName"}
+      Value: {"NamespaceIndex":55,"TextId":"ProductName"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -641,7 +641,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":49,"TextId":"FTOptixStudio"}
+        Value: {"NamespaceIndex":55,"TextId":"FTOptixStudio"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -688,7 +688,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":49,"TextId":"OptixPanelFirmware"}
+        Value: {"NamespaceIndex":55,"TextId":"OptixPanelFirmware"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -736,7 +736,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":49,"TextId":"OS "}
+        Value: {"NamespaceIndex":55,"TextId":"OS "}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -784,7 +784,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":49,"TextId":"SystemManager"}
+        Value: {"NamespaceIndex":55,"TextId":"SystemManager"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -836,7 +836,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":49,"TextId":"Versions"}
+        Value: {"NamespaceIndex":55,"TextId":"Versions"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -905,7 +905,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":49,"TextId":"CPUTemperature"}
+      Value: {"NamespaceIndex":55,"TextId":"CPUTemperature"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -936,7 +936,7 @@ Children:
           ReferenceType: HasParameter
           ModellingRule: Optional
           Value: {"LocaleId":"en-US","Text":"{0} C"}
-        - Name: ns=12;Source0
+        - Name: ns=18;Source0
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource
@@ -971,7 +971,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":49,"TextId":"CPUUtilization"}
+      Value: {"NamespaceIndex":55,"TextId":"CPUUtilization"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1002,7 +1002,7 @@ Children:
           ReferenceType: HasParameter
           ModellingRule: Optional
           Value: {"LocaleId":"en-US","Text":"{0} %"}
-        - Name: ns=12;Source0
+        - Name: ns=18;Source0
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource
@@ -1037,7 +1037,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":49,"TextId":"LastDeploy"}
+      Value: {"NamespaceIndex":55,"TextId":"LastDeploy"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1068,7 +1068,7 @@ Children:
           ReferenceType: HasParameter
           ModellingRule: Optional
           Value: {"LocaleId":"en-US","Text":"{0:g}"}
-        - Name: ns=12;Source0
+        - Name: ns=18;Source0
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource
@@ -1103,7 +1103,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":49,"TextId":"LastReboot"}
+      Value: {"NamespaceIndex":55,"TextId":"LastReboot"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1134,7 +1134,7 @@ Children:
           ReferenceType: HasParameter
           ModellingRule: Optional
           Value: {"LocaleId":"en-US","Text":"{0:g}"}
-        - Name: ns=12;Source0
+        - Name: ns=18;Source0
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource
@@ -1169,7 +1169,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":49,"TextId":"FreeMemory"}
+      Value: {"NamespaceIndex":55,"TextId":"FreeMemory"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1200,7 +1200,7 @@ Children:
           ReferenceType: HasParameter
           ModellingRule: Optional
           Value: {"LocaleId":"en-US","Text":"{0} kB"}
-        - Name: ns=12;Source0
+        - Name: ns=18;Source0
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource
@@ -1235,7 +1235,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":49,"TextId":"UsedMemory"}
+      Value: {"NamespaceIndex":55,"TextId":"UsedMemory"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1270,7 +1270,7 @@ Children:
           ReferenceType: HasParameter
           ModellingRule: Optional
           Value: {"LocaleId":"en-US","Text":"{0} kB"}
-        - Name: ns=12;Source0
+        - Name: ns=18;Source0
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource
@@ -1305,7 +1305,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":49,"TextId":"PowerOnTime"}
+      Value: {"NamespaceIndex":55,"TextId":"PowerOnTime"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1355,7 +1355,7 @@ Children:
           ReferenceType: HasParameter
           ModellingRule: Optional
           Value: {"LocaleId":"en-US","Text":"{0} hours"}
-        - Name: ns=12;Source0
+        - Name: ns=18;Source0
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource
@@ -1371,7 +1371,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":49,"TextId":"FreeStorage"}
+      Value: {"NamespaceIndex":55,"TextId":"FreeStorage"}
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -1406,7 +1406,7 @@ Children:
           ReferenceType: HasParameter
           ModellingRule: Optional
           Value: {"LocaleId":"en-US","Text":"{0} kB"}
-        - Name: ns=12;Source0
+        - Name: ns=18;Source0
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource
@@ -1441,7 +1441,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":49,"TextId":"UsedStorage"}
+      Value: {"NamespaceIndex":55,"TextId":"UsedStorage"}
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -1476,7 +1476,7 @@ Children:
           ReferenceType: HasParameter
           ModellingRule: Optional
           Value: {"LocaleId":"en-US","Text":"{0} kB"}
-        - Name: ns=12;Source0
+        - Name: ns=18;Source0
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource

@@ -3355,8 +3355,8 @@ Children:
     DataType: String
     Value: "CV"
 - Name: EOI1_HB
-  Type: ns=49;HB_EOI2
-  DataType: ns=49;HB_EOI2
+  Type: ns=55;HB_EOI2
+  DataType: ns=55;HB_EOI2
   Children:
   - Name: HB1
     Type: RAEtherNetIPTag
@@ -3392,8 +3392,8 @@ Children:
       DataType: String
       Value: "EOI1_HB.ONS"
   - Name: Timer
-    Type: ns=49;TIMER2
-    DataType: ns=49;TIMER2
+    Type: ns=55;TIMER2
+    DataType: ns=55;TIMER2
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -3436,8 +3436,8 @@ Children:
         DataType: String
         Value: "EOI1_HB.Timer.TT"
 - Name: EOI2_HB
-  Type: ns=49;HB_EOI2
-  DataType: ns=49;HB_EOI2
+  Type: ns=55;HB_EOI2
+  DataType: ns=55;HB_EOI2
   Children:
   - Name: HB1
     Type: RAEtherNetIPTag
@@ -3473,8 +3473,8 @@ Children:
       DataType: String
       Value: "EOI2_HB.ONS"
   - Name: Timer
-    Type: ns=49;TIMER2
-    DataType: ns=49;TIMER2
+    Type: ns=55;TIMER2
+    DataType: ns=55;TIMER2
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -3517,8 +3517,8 @@ Children:
         DataType: String
         Value: "EOI2_HB.Timer.TT"
 - Name: EOI3_HB
-  Type: ns=49;HB_EOI2
-  DataType: ns=49;HB_EOI2
+  Type: ns=55;HB_EOI2
+  DataType: ns=55;HB_EOI2
   Children:
   - Name: HB1
     Type: RAEtherNetIPTag
@@ -3554,8 +3554,8 @@ Children:
       DataType: String
       Value: "EOI3_HB.ONS"
   - Name: Timer
-    Type: ns=49;TIMER2
-    DataType: ns=49;TIMER2
+    Type: ns=55;TIMER2
+    DataType: ns=55;TIMER2
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -3598,8 +3598,8 @@ Children:
         DataType: String
         Value: "EOI3_HB.Timer.TT"
 - Name: EOI4_HB
-  Type: ns=49;HB_EOI2
-  DataType: ns=49;HB_EOI2
+  Type: ns=55;HB_EOI2
+  DataType: ns=55;HB_EOI2
   Children:
   - Name: HB1
     Type: RAEtherNetIPTag
@@ -3635,8 +3635,8 @@ Children:
       DataType: String
       Value: "EOI4_HB.ONS"
   - Name: Timer
-    Type: ns=49;TIMER2
-    DataType: ns=49;TIMER2
+    Type: ns=55;TIMER2
+    DataType: ns=55;TIMER2
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -5447,8 +5447,8 @@ Children:
     DataType: String
     Value: "ScatteredLINT_CT24"
 - Name: ScatteredREAL_CS
-  Type: ns=49;ScatteredREALs2
-  DataType: ns=49;ScatteredREALs2
+  Type: ns=55;ScatteredREALs2
+  DataType: ns=55;ScatteredREALs2
   Children:
   - Name: R00
     Type: RAEtherNetIPTag
@@ -6287,8 +6287,8 @@ Children:
     DataType: String
     Value: "ScatteredSINT_CT24"
 - Name: ScatteredSTRING_CS
-  Type: ns=49;ScatteredSTRINGs2
-  DataType: ns=49;ScatteredSTRINGs2
+  Type: ns=55;ScatteredSTRINGs2
+  DataType: ns=55;ScatteredSTRINGs2
   Children:
   - Name: S00
     Type: RAEtherNetIPTag

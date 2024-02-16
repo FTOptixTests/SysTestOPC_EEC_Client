@@ -169,7 +169,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -186,7 +186,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -196,12 +196,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/EOI1_HB/HB2"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/EOI1_HB/HB2"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -210,7 +210,7 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: VariableValueChangedEvent
@@ -268,7 +268,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -285,7 +285,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -295,12 +295,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/EOI1_HB/HB2"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/EOI1_HB/HB2"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -309,7 +309,7 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: VariableValueChangedEvent
@@ -367,7 +367,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -384,7 +384,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -394,12 +394,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/EOI1_HB/HB2"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/EOI1_HB/HB2"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -408,7 +408,7 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: VariableValueChangedEvent
@@ -466,7 +466,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -483,7 +483,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -493,12 +493,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/EOI1_HB/HB2"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/EOI1_HB/HB2"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -507,7 +507,7 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: VariableValueChangedEvent
@@ -568,7 +568,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/Model/Variables/Config/IP/EOI_Nr"
+            Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/IP/EOI_Nr"
     - Name: TrueValue
       Type: BaseDataVariableType
       DataType: Int32
@@ -602,7 +602,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -619,7 +619,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -629,12 +629,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/EOI1_HB/HB2"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/EOI1_HB/HB2"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -643,7 +643,7 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: VariableValueChangedEvent
@@ -704,7 +704,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/Model/Variables/Config/IP/EOI_Nr"
+            Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/IP/EOI_Nr"
     - Name: TrueValue
       Type: BaseDataVariableType
       DataType: Int32
@@ -741,7 +741,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/Model/Variables/Config/IP/EOI_Nr"
+            Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/IP/EOI_Nr"
     - Name: TrueValue
       Type: BaseDataVariableType
       DataType: Int32
@@ -778,7 +778,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/Model/Variables/Config/IP/EOI_Nr"
+            Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/IP/EOI_Nr"
     - Name: TrueValue
       Type: BaseDataVariableType
       DataType: Int32
@@ -812,7 +812,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -829,7 +829,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -839,12 +839,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/EOI1_HB/HB2"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/EOI1_HB/HB2"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -853,7 +853,7 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: VariableValueChangedEvent
@@ -911,7 +911,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -928,7 +928,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -938,12 +938,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/EOI1_HB/HB2"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/EOI1_HB/HB2"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -952,7 +952,7 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: VariableValueChangedEvent
@@ -1010,7 +1010,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -1027,7 +1027,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -1037,12 +1037,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/EOI1_HB/HB2"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/EOI1_HB/HB2"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -1051,7 +1051,7 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: VariableValueChangedEvent
@@ -1112,7 +1112,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/Model/Variables/Config/IP/EOI_Nr"
+            Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/IP/EOI_Nr"
     - Name: TrueValue
       Type: BaseDataVariableType
       DataType: Boolean
@@ -1149,7 +1149,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/Model/Variables/Config/IP/EOI_Nr"
+            Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/IP/EOI_Nr"
     - Name: TrueValue
       Type: BaseDataVariableType
       DataType: Boolean
@@ -1186,7 +1186,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/Model/Variables/Config/IP/EOI_Nr"
+            Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/IP/EOI_Nr"
     - Name: TrueValue
       Type: BaseDataVariableType
       DataType: Boolean
@@ -1223,7 +1223,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/Model/Variables/Config/IP/EOI_Nr"
+            Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/IP/EOI_Nr"
     - Name: TrueValue
       Type: BaseDataVariableType
       DataType: Boolean
@@ -1257,7 +1257,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -1274,7 +1274,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -1284,12 +1284,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/EOI2_HB/HB2"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/EOI2_HB/HB2"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -1298,7 +1298,7 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: VariableValueChangedEvent
@@ -1356,7 +1356,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -1373,7 +1373,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -1383,12 +1383,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/EOI2_HB/HB2"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/EOI2_HB/HB2"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -1397,7 +1397,7 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: VariableValueChangedEvent
@@ -1455,7 +1455,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -1472,7 +1472,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -1482,12 +1482,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/EOI2_HB/HB2"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/EOI2_HB/HB2"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -1496,7 +1496,7 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: VariableValueChangedEvent
@@ -1554,7 +1554,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -1571,7 +1571,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -1581,12 +1581,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/EOI2_HB/HB2"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/EOI2_HB/HB2"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -1595,7 +1595,7 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: VariableValueChangedEvent
@@ -1656,7 +1656,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/Model/Variables/Config/IP/EOI_Nr"
+            Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/IP/EOI_Nr"
     - Name: TrueValue
       Type: BaseDataVariableType
       DataType: Boolean
@@ -1693,7 +1693,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/Model/Variables/Config/IP/EOI_Nr"
+            Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/IP/EOI_Nr"
     - Name: TrueValue
       Type: BaseDataVariableType
       DataType: Boolean
@@ -1730,7 +1730,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/Model/Variables/Config/IP/EOI_Nr"
+            Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/IP/EOI_Nr"
     - Name: TrueValue
       Type: BaseDataVariableType
       DataType: Boolean
@@ -1767,7 +1767,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/Model/Variables/Config/IP/EOI_Nr"
+            Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/IP/EOI_Nr"
     - Name: TrueValue
       Type: BaseDataVariableType
       DataType: Boolean
@@ -1801,7 +1801,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -1818,7 +1818,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -1828,12 +1828,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/EOI3_HB/HB2"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/EOI3_HB/HB2"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -1842,7 +1842,7 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: VariableValueChangedEvent
@@ -1900,7 +1900,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -1917,7 +1917,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -1927,12 +1927,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/EOI3_HB/HB2"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/EOI3_HB/HB2"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -1941,7 +1941,7 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: VariableValueChangedEvent
@@ -1999,7 +1999,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -2016,7 +2016,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -2026,12 +2026,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/EOI3_HB/HB2"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/EOI3_HB/HB2"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -2040,7 +2040,7 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: VariableValueChangedEvent
@@ -2098,7 +2098,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -2115,7 +2115,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -2125,12 +2125,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/EOI3_HB/HB2"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/EOI3_HB/HB2"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -2139,7 +2139,7 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: VariableValueChangedEvent
@@ -2200,7 +2200,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/Model/Variables/Config/IP/EOI_Nr"
+            Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/IP/EOI_Nr"
     - Name: TrueValue
       Type: BaseDataVariableType
       DataType: Boolean
@@ -2237,7 +2237,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/Model/Variables/Config/IP/EOI_Nr"
+            Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/IP/EOI_Nr"
     - Name: TrueValue
       Type: BaseDataVariableType
       DataType: Boolean
@@ -2274,7 +2274,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/Model/Variables/Config/IP/EOI_Nr"
+            Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/IP/EOI_Nr"
     - Name: TrueValue
       Type: BaseDataVariableType
       DataType: Boolean
@@ -2311,7 +2311,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "/Objects/SysTestOPCClient/Model/Variables/Config/IP/EOI_Nr"
+            Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/IP/EOI_Nr"
     - Name: TrueValue
       Type: BaseDataVariableType
       DataType: Boolean
@@ -2345,7 +2345,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -2362,7 +2362,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -2372,12 +2372,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/EOI4_HB/HB2"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/EOI4_HB/HB2"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -2386,7 +2386,7 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: VariableValueChangedEvent
@@ -2444,7 +2444,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -2461,7 +2461,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -2471,12 +2471,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/EOI4_HB/HB2"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/EOI4_HB/HB2"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -2485,7 +2485,7 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: VariableValueChangedEvent
@@ -2543,7 +2543,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -2560,7 +2560,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -2570,12 +2570,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/EOI4_HB/HB2"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/EOI4_HB/HB2"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -2584,7 +2584,7 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: VariableValueChangedEvent
@@ -2642,7 +2642,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -2659,7 +2659,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -2669,12 +2669,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/EOI4_HB/HB2"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/EOI4_HB/HB2"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Boolean
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -2683,7 +2683,7 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: VariableValueChangedEvent

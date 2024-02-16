@@ -26,7 +26,7 @@ Children:
       Type: MethodInvocation
       Children:
       - Class: Reference
-        Target: ns=10;i=98
+        Target: ns=16;i=98
         Direction: Forward
       - Name: ObjectPointer
         Type: NodePointer
@@ -47,7 +47,7 @@ Children:
         - Name: VariableToModify
           Type: BaseDataVariableType
           DataType: VariablePointer
-          Description: {"NamespaceIndex":10,"TextId":"ToggleVariableToModifyDescription"}
+          Description: {"NamespaceIndex":16,"TextId":"ToggleVariableToModifyDescription"}
           Children:
           - Name: DynamicLink
             Type: DynamicLink
@@ -56,7 +56,7 @@ Children:
         - Name: ArrayIndex
           Type: BaseDataVariableType
           DataType: UInt32
-          Description: {"NamespaceIndex":10,"TextId":"ToggleArrayIndexDescription"}
+          Description: {"NamespaceIndex":16,"TextId":"ToggleArrayIndexDescription"}
           ValueRank: ScalarOrOneDimension
   - Name: LED1
     Type: Led

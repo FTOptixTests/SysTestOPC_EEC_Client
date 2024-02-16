@@ -13,7 +13,7 @@ Children:
       DataType: String
       ReferenceType: HasParameter
       Value: "{0}>15000 && {0}<17000"
-    - Name: ns=10;Source0
+    - Name: ns=16;Source0
       Type: BaseDataVariableType
       DataType: BaseDataType
       ReferenceType: HasSource
@@ -49,7 +49,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -66,7 +66,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -76,12 +76,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:S30_DBA/ACC"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:S30_DBA/ACC"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Int32
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -90,12 +90,12 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
       - Name: MethodContainer2
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -112,7 +112,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -122,12 +122,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:S30_DBA/ACC"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:S30_DBA/ACC"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Int32
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -136,12 +136,12 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
       - Name: MethodContainer3
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -158,7 +158,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
@@ -168,12 +168,12 @@ Children:
           - Name: VariableToModify
             Type: BaseDataVariableType
             DataType: VariablePointer
-            Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
-            Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:S30_DBA/ACC"
+            Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:S30_DBA/ACC"
           - Name: Value
             Type: BaseDataVariableType
             DataType: Int32
-            Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -182,7 +182,7 @@ Children:
           - Name: ArrayIndex
             Type: BaseDataVariableType
             DataType: UInt32
-            Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+            Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
     - Name: EventArguments
       Type: VariableTransitionEvent
@@ -292,7 +292,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -309,7 +309,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "ConfirmAll"
@@ -369,7 +369,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -386,7 +386,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "ConfirmAll"
@@ -446,7 +446,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -463,7 +463,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "AcknowledgeAll"
@@ -523,7 +523,7 @@ Children:
       - Name: MethodContainer1
         Type: BaseObjectType
         Children:
-        - Name: ns=10;ObjectPointer
+        - Name: ns=16;ObjectPointer
           Type: NodePointer
           DataType: NodeId
           Children:
@@ -540,7 +540,7 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: ns=10;Method
+        - Name: ns=16;Method
           Type: BaseDataVariableType
           DataType: String
           Value: "AcknowledgeAll"

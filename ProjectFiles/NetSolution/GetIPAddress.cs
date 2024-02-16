@@ -65,7 +65,8 @@ public class GetIPAddress : BaseNetLogic
             { "192.168.1.211", 1 },
             { "192.168.1.212", 2 },
             { "192.168.1.213", 3 },
-            { "192.168.1.214", 4 }
+            { "192.168.1.214", 4 },
+            { "192.168.1.233", 1 },
         };
 
         if (ipAddressMap.TryGetValue(ipv4Address, out int eoiValue))

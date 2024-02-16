@@ -254,7 +254,7 @@ Children:
   - Name: StyleSheet
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/SysTestOPCClient/Reports/StyleSheet1"
+    Value: "/Objects/SysTestOPC_EEC_Client/Reports/StyleSheet1"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -540,7 +540,7 @@ Children:
               DataType: LocalizedText
               ReferenceType: HasParameter
               Value: {"LocaleId":"","Text":"{0:g}"}
-            - Name: ns=10;Source0
+            - Name: ns=16;Source0
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource
@@ -1071,7 +1071,7 @@ Children:
           - Name: Title
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":49,"TextId":"Name"}
+            Value: {"NamespaceIndex":55,"TextId":"Name"}
           - Name: HeaderAlignment
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
@@ -1266,16 +1266,16 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: "/Objects/SysTestOPCClient/Model/Variables/Features/DataControls_Box/HotelType"
+          Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Features/DataControls_Box/HotelType"
       - Name: Model
         Type: NodePointer
         DataType: NodeId
-        Value: "/Objects/SysTestOPCClient/Model/Variables/Features/DataControls_Box/Hotels"
+        Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Features/DataControls_Box/Hotels"
         Children:
         - Name: ItemKind
           Type: PropertyType
           DataType: NodeId
-          Value: "/Objects/SysTestOPCClient/Model/Variables/Features/DataControls_Box/HotelType"
+          Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Features/DataControls_Box/HotelType"
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
@@ -1287,7 +1287,7 @@ Children:
         DataType: NodeId
         AccessLevel: Read
       - Class: Reference
-        Target: ns=12;i=504
+        Target: ns=18;i=504
         Direction: Forward
       - Name: Height
         Type: BaseDataVariableType
@@ -1319,7 +1319,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: "/Objects/SysTestOPCClient/Model/Variables/Features/DataControls_Box/HotelType"
+          Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Features/DataControls_Box/HotelType"
       - Name: TopMargin
         Type: BaseDataVariableType
         DataType: Size
@@ -1537,7 +1537,7 @@ Children:
           - Name: Path
             Type: BaseDataVariableType
             DataType: ResourceUri
-            Value: "ns=49;%PROJECTDIR%/SVG_Logo.svg"
+            Value: "ns=55;%PROJECTDIR%/SVG_Logo.svg"
           - Name: Width
             Type: BaseDataVariableType
             DataType: Size
@@ -1918,7 +1918,7 @@ Children:
       - Name: Model
         Type: NodePointer
         DataType: NodeId
-        Value: "/Objects/SysTestOPCClient/DataStores/EmbeddedDatabase1"
+        Value: "/Objects/SysTestOPC_EEC_Client/DataStores/EmbeddedDatabase1"
         Children:
         - Name: ItemKind
           Type: PropertyType
@@ -1935,7 +1935,7 @@ Children:
         DataType: NodeId
         AccessLevel: Read
       - Class: Reference
-        Target: ns=12;i=504
+        Target: ns=18;i=504
         Direction: Forward
       - Name: Height
         Type: BaseDataVariableType
@@ -2077,7 +2077,7 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=49;%PROJECTDIR%/Logo.png"
+          Value: "ns=55;%PROJECTDIR%/Logo.png"
         - Name: Width
           Type: BaseDataVariableType
           DataType: Size
@@ -2220,5 +2220,5 @@ Children:
           DataType: LocalizedText
           ReferenceType: HasProperty
   - Class: Reference
-    Target: ns=26;i=16
+    Target: ns=32;i=16
     Direction: Forward

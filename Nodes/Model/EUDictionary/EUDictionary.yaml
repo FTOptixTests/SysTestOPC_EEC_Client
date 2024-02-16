@@ -136,7 +136,7 @@ Children:
       Type: BaseVariableType
       DataType: NamespaceIndex
       ReferenceType: HasProperty
-      Value: 49
+      Value: 55
 - Name: LengthSazen
   Type: AnalogItemType
   DataType: Float
@@ -183,7 +183,7 @@ Children:
       Type: BaseVariableType
       DataType: NamespaceIndex
       ReferenceType: HasProperty
-      Value: 49
+      Value: 55
 - Name: MassFunt
   Type: AnalogItemType
   DataType: Float
@@ -230,7 +230,7 @@ Children:
       Type: BaseVariableType
       DataType: NamespaceIndex
       ReferenceType: HasProperty
-      Value: 49
+      Value: 55
 - Name: MassCetnar
   Type: AnalogItemType
   DataType: Float
@@ -277,7 +277,7 @@ Children:
       Type: BaseVariableType
       DataType: NamespaceIndex
       ReferenceType: HasProperty
-      Value: 49
+      Value: 55
 - Name: LengthFoot
   Type: AnalogItemType
   DataType: Float
@@ -630,7 +630,7 @@ Children:
     Type: MethodInvocation
     Children:
     - Class: Reference
-      Target: ns=10;i=98
+      Target: ns=16;i=98
       Direction: Forward
     - Name: ObjectPointer
       Type: NodePointer
@@ -659,17 +659,17 @@ Children:
       - Name: VariableToModify
         Type: BaseDataVariableType
         DataType: VariablePointer
-        Description: {"NamespaceIndex":10,"TextId":"IncrementVariableToModifyDescription"}
-        Value: "/Objects/SysTestOPCClient/Model/EUDictionary/EU_index"
+        Description: {"NamespaceIndex":16,"TextId":"IncrementVariableToModifyDescription"}
+        Value: "/Objects/SysTestOPC_EEC_Client/Model/EUDictionary/EU_index"
       - Name: Delta
         Type: BaseDataVariableType
         DataType: Float
-        Description: {"NamespaceIndex":10,"TextId":"IncrementDeltaDescription"}
+        Description: {"NamespaceIndex":16,"TextId":"IncrementDeltaDescription"}
         Value: 1.2000000476837158
       - Name: ArrayIndex
         Type: BaseDataVariableType
         DataType: UInt32
-        Description: {"NamespaceIndex":10,"TextId":"IncrementArrayIndexDescription"}
+        Description: {"NamespaceIndex":16,"TextId":"IncrementArrayIndexDescription"}
         ValueRank: ScalarOrOneDimension
 - Name: EU_index
   Id: g=b6c2d7a2ffda5fd3b9545c03615338c1

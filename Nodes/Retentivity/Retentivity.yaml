@@ -10,7 +10,7 @@ Children:
     - Name: Node1
       Type: NodePointer
       DataType: NodeId
-      Value: "/Objects/SysTestOPCClient/Security"
+      Value: "/Objects/SysTestOPC_EEC_Client/Security"
       Children:
       - Name: Kind
         Type: PropertyType
@@ -37,7 +37,7 @@ Children:
     - Name: Node1
       Type: NodePointer
       DataType: NodeId
-      Value: "/Objects/SysTestOPCClient/Alarms"
+      Value: "/Objects/SysTestOPC_EEC_Client/Alarms"
       Children:
       - Name: Kind
         Type: PropertyType
@@ -64,7 +64,7 @@ Children:
     - Name: Node1
       Type: NodePointer
       DataType: NodeId
-      Value: "/Objects/SysTestOPCClient/Model/Variables/RetentiveVar"
+      Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/RetentiveVar"
       Children:
       - Name: Kind
         Type: PropertyType
@@ -76,7 +76,7 @@ Children:
     - Name: Node2
       Type: NodePointer
       DataType: NodeId
-      Value: "/Objects/SysTestOPCClient/Model/Variables/Config/PE_Bar/BarHeight"
+      Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/PE_Bar/BarHeight"
       Children:
       - Name: Kind
         Type: PropertyType
@@ -88,7 +88,7 @@ Children:
     - Name: Node3
       Type: NodePointer
       DataType: NodeId
-      Value: "/Objects/SysTestOPCClient/Model/Variables/Config/PE_Bar/BarWidth"
+      Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/PE_Bar/BarWidth"
       Children:
       - Name: Kind
         Type: PropertyType
@@ -100,7 +100,7 @@ Children:
     - Name: Node4
       Type: NodePointer
       DataType: NodeId
-      Value: "/Objects/SysTestOPCClient/Model/Variables/Config/PE_Bar/BarTopMarginOffset"
+      Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/PE_Bar/BarTopMarginOffset"
       Children:
       - Name: Kind
         Type: PropertyType
@@ -112,7 +112,7 @@ Children:
     - Name: Node5
       Type: NodePointer
       DataType: NodeId
-      Value: "/Objects/SysTestOPCClient/Model/Variables/Config/PE_Bar/HeightOffset"
+      Value: "/Objects/SysTestOPC_EEC_Client/Model/Variables/Config/PE_Bar/HeightOffset"
       Children:
       - Name: Kind
         Type: PropertyType

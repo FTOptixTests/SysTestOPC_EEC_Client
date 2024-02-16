@@ -25,7 +25,7 @@ Children:
       DataType: String
       ReferenceType: HasParameter
       Value: "{0}==1 && {1}==1 && {2}==1"
-    - Name: ns=10;Source0
+    - Name: ns=16;Source0
       Type: BaseDataVariableType
       DataType: BaseDataType
       ReferenceType: HasSource
@@ -34,7 +34,7 @@ Children:
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../LoggedTagValue"
-    - Name: ns=10;Source1
+    - Name: ns=16;Source1
       Type: BaseDataVariableType
       DataType: BaseDataType
       ReferenceType: HasSource
@@ -43,7 +43,7 @@ Children:
         Type: DynamicLink
         DataType: NodePath
         Value: "../../../PEExpectedPattern"
-    - Name: ns=10;Source2
+    - Name: ns=16;Source2
       Type: BaseDataVariableType
       DataType: BaseDataType
       ReferenceType: HasSource

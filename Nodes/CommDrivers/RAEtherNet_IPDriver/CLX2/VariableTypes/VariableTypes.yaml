@@ -871,10 +871,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "B26"
-- Name: ns=49;ScreenToScrew_Expected_Type041
+- Name: ns=55;ScreenToScrew_Expected_Type041
   Id: g=c93b8b9cc5a90ea72f73a13936ca214e
   Supertype: TagStructure
-  DataType: ns=49;ScreenToScrew_Expected_Type041
+  DataType: ns=55;ScreenToScrew_Expected_Type041
   ValueRank: Any
   Children:
   - Name: Tag00
@@ -1185,10 +1185,10 @@ Children:
               Type: BaseDataVariableType
               DataType: String
               Value: "L5"
-- Name: ns=49;HB_EOI1
+- Name: ns=55;HB_EOI1
   Id: g=2accd2de5945ce4fa8f1c109802f6cca
   Supertype: TagStructure
-  DataType: ns=49;HB_EOI1
+  DataType: ns=55;HB_EOI1
   ValueRank: Any
   Children:
   - Name: HB1
@@ -1224,8 +1224,8 @@ Children:
       DataType: String
       Value: "ONS"
   - Name: Timer
-    Type: ns=49;TIMER1
-    DataType: ns=49;TIMER1
+    Type: ns=55;TIMER1
+    DataType: ns=55;TIMER1
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -1267,10 +1267,10 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "TT"
-- Name: ns=49;ScatteredSTRINGs1
+- Name: ns=55;ScatteredSTRINGs1
   Id: g=8e395910d40d4fd9d8a2508a9d31c640
   Supertype: TagStructure
-  DataType: ns=49;ScatteredSTRINGs1
+  DataType: ns=55;ScatteredSTRINGs1
   ValueRank: Any
   Children:
   - Name: S00
@@ -1711,10 +1711,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "S26"
-- Name: ns=49;ScatteredREALs
+- Name: ns=55;ScatteredREALs
   Id: g=bf7adcc90e1935da9f8d867661e29b25
   Supertype: TagStructure
-  DataType: ns=49;ScatteredREALs
+  DataType: ns=55;ScatteredREALs
   ValueRank: Any
   Children:
   - Name: R00
@@ -2859,10 +2859,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Tag06"
-- Name: ns=49;TIMER1
+- Name: ns=55;TIMER1
   Id: g=0f52b7dbd9897485b89b852efdc235ad
   Supertype: TagStructure
-  DataType: ns=49;TIMER1
+  DataType: ns=55;TIMER1
   ValueRank: Any
   Children:
   - Name: ACC

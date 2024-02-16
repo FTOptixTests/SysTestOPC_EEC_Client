@@ -21,7 +21,7 @@ Children:
           DataType: String
           ReferenceType: HasParameter
           Value: "{0}==\"\""
-        - Name: ns=10;Source0
+        - Name: ns=16;Source0
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource
@@ -52,7 +52,7 @@ Children:
           DataType: String
           ReferenceType: HasParameter
           Value: "Round({0}/1024)"
-        - Name: ns=10;Source0
+        - Name: ns=16;Source0
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource
@@ -84,7 +84,7 @@ Children:
           DataType: String
           ReferenceType: HasParameter
           Value: "{0}==\"\""
-        - Name: ns=10;Source0
+        - Name: ns=16;Source0
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource
@@ -126,7 +126,7 @@ Children:
       DataType: LocalizedText
       ReferenceType: HasParameter
       Value: {"LocaleId":"en-US","Text":"{0:f2}"}
-    - Name: ns=10;Source0
+    - Name: ns=16;Source0
       Type: BaseDataVariableType
       DataType: BaseDataType
       ReferenceType: HasSource
@@ -147,7 +147,7 @@ Children:
               DataType: String
               ReferenceType: HasParameter
               Value: "{0}==\"\""
-            - Name: ns=10;Source0
+            - Name: ns=16;Source0
               Type: BaseDataVariableType
               DataType: BaseDataType
               ReferenceType: HasSource

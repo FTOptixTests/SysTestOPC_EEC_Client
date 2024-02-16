@@ -98,22 +98,22 @@ Children:
   DataType: CommunicationOperationCode
   AccessLevel: Read
 - Class: Reference
-  Target: ns=28;i=29
+  Target: ns=34;i=29
   Direction: Forward
 - Class: Reference
-  Target: ns=28;i=30
+  Target: ns=34;i=30
   Direction: Forward
 - Class: Reference
-  Target: ns=28;i=67
+  Target: ns=34;i=67
   Direction: Forward
 - Class: Reference
-  Target: ns=28;i=31
+  Target: ns=34;i=31
   Direction: Forward
 - Class: Reference
-  Target: ns=28;i=94
+  Target: ns=34;i=94
   Direction: Forward
 - Class: Reference
-  Target: ns=28;i=96
+  Target: ns=34;i=96
   Direction: Forward
 - File: Tags/Tags.yaml
 - Name: Types

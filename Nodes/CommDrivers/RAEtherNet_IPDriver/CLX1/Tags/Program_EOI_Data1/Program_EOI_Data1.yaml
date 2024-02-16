@@ -787,8 +787,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Flow.Fail.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -839,8 +839,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Flow.Fail.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -1167,8 +1167,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Flow.Hi.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -1219,8 +1219,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Flow.Hi.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -1547,8 +1547,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Flow.HiHi.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -1599,8 +1599,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Flow.HiHi.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -1975,8 +1975,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Flow.Lo.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -2027,8 +2027,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Flow.Lo.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -2355,8 +2355,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Flow.LoLo.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -2407,8 +2407,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Flow.LoLo.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -3335,8 +3335,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_AIN_Tk10_Flow.Wrk_Notify"
   - Name: Wrk_ScanT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -4213,8 +4213,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Level.Fail.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -4265,8 +4265,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Level.Fail.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -4593,8 +4593,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Level.Hi.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -4645,8 +4645,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Level.Hi.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -4973,8 +4973,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Level.HiHi.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -5025,8 +5025,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Level.HiHi.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -5401,8 +5401,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Level.Lo.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -5453,8 +5453,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Level.Lo.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -5781,8 +5781,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Level.LoLo.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -5833,8 +5833,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Level.LoLo.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -6761,8 +6761,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_AIN_Tk10_Level.Wrk_Notify"
   - Name: Wrk_ScanT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -7639,8 +7639,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Press.Fail.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -7691,8 +7691,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Press.Fail.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -8019,8 +8019,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Press.Hi.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -8071,8 +8071,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Press.Hi.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -8399,8 +8399,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Press.HiHi.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -8451,8 +8451,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Press.HiHi.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -8827,8 +8827,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Press.Lo.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -8879,8 +8879,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Press.Lo.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -9207,8 +9207,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Press.LoLo.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -9259,8 +9259,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Press.LoLo.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -10187,8 +10187,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_AIN_Tk10_Press.Wrk_Notify"
   - Name: Wrk_ScanT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -11065,8 +11065,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Temp.Fail.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -11117,8 +11117,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Temp.Fail.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -11445,8 +11445,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Temp.Hi.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -11497,8 +11497,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Temp.Hi.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -11825,8 +11825,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Temp.HiHi.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -11877,8 +11877,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Temp.HiHi.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -12253,8 +12253,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Temp.Lo.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -12305,8 +12305,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Temp.Lo.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -12633,8 +12633,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Temp.LoLo.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -12685,8 +12685,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk10_Temp.LoLo.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -13613,8 +13613,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_AIN_Tk10_Temp.Wrk_Notify"
   - Name: Wrk_ScanT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -14491,8 +14491,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Flow.Fail.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -14543,8 +14543,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Flow.Fail.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -14871,8 +14871,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Flow.Hi.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -14923,8 +14923,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Flow.Hi.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -15251,8 +15251,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Flow.HiHi.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -15303,8 +15303,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Flow.HiHi.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -15679,8 +15679,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Flow.Lo.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -15731,8 +15731,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Flow.Lo.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -16059,8 +16059,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Flow.LoLo.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -16111,8 +16111,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Flow.LoLo.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -17039,8 +17039,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_AIN_Tk20_Flow.Wrk_Notify"
   - Name: Wrk_ScanT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -17917,8 +17917,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Level.Fail.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -17969,8 +17969,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Level.Fail.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -18297,8 +18297,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Level.Hi.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -18349,8 +18349,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Level.Hi.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -18677,8 +18677,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Level.HiHi.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -18729,8 +18729,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Level.HiHi.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -19105,8 +19105,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Level.Lo.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -19157,8 +19157,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Level.Lo.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -19485,8 +19485,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Level.LoLo.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -19537,8 +19537,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Level.LoLo.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -20465,8 +20465,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_AIN_Tk20_Level.Wrk_Notify"
   - Name: Wrk_ScanT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -21343,8 +21343,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Press.Fail.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -21395,8 +21395,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Press.Fail.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -21723,8 +21723,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Press.Hi.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -21775,8 +21775,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Press.Hi.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -22103,8 +22103,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Press.HiHi.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -22155,8 +22155,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Press.HiHi.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -22531,8 +22531,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Press.Lo.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -22583,8 +22583,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Press.Lo.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -22911,8 +22911,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Press.LoLo.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -22963,8 +22963,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Press.LoLo.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -23891,8 +23891,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_AIN_Tk20_Press.Wrk_Notify"
   - Name: Wrk_ScanT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -24769,8 +24769,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Temp.Fail.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -24821,8 +24821,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Temp.Fail.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -25149,8 +25149,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Temp.Hi.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -25201,8 +25201,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Temp.Hi.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -25529,8 +25529,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Temp.HiHi.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -25581,8 +25581,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Temp.HiHi.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -25957,8 +25957,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Temp.Lo.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -26009,8 +26009,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Temp.Lo.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -26337,8 +26337,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Temp.LoLo.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -26389,8 +26389,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_AIN_Tk20_Temp.LoLo.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -27317,8 +27317,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_AIN_Tk20_Temp.Wrk_Notify"
   - Name: Wrk_ScanT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -28066,8 +28066,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO1.FullStall.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -28118,8 +28118,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO1.FullStall.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -28550,8 +28550,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO1.IntlkTrip.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -28602,8 +28602,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO1.IntlkTrip.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -28930,8 +28930,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO1.IOFault.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -28982,8 +28982,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO1.IOFault.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -30074,8 +30074,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO1.TransitStall.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -30126,8 +30126,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO1.TransitStall.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -30218,8 +30218,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_Vlv_SO1.Wrk_Fault"
   - Name: Wrk_FullStallT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -30302,8 +30302,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_Vlv_SO1.Wrk_OpenFdbk"
   - Name: Wrk_SimCloseT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -30346,8 +30346,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO1.Wrk_SimCloseT.TT"
   - Name: Wrk_SimOpenT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -30390,8 +30390,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO1.Wrk_SimOpenT.TT"
   - Name: Wrk_TransitStallT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -31099,8 +31099,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO1_Tk10.FullStall.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -31151,8 +31151,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO1_Tk10.FullStall.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -31583,8 +31583,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO1_Tk10.IntlkTrip.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -31635,8 +31635,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO1_Tk10.IntlkTrip.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -31963,8 +31963,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO1_Tk10.IOFault.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -32015,8 +32015,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO1_Tk10.IOFault.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -33107,8 +33107,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO1_Tk10.TransitStall.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -33159,8 +33159,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO1_Tk10.TransitStall.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -33251,8 +33251,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_Vlv_SO1_Tk10.Wrk_Fault"
   - Name: Wrk_FullStallT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -33335,8 +33335,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_Vlv_SO1_Tk10.Wrk_OpenFdbk"
   - Name: Wrk_SimCloseT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -33379,8 +33379,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO1_Tk10.Wrk_SimCloseT.TT"
   - Name: Wrk_SimOpenT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -33423,8 +33423,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO1_Tk10.Wrk_SimOpenT.TT"
   - Name: Wrk_TransitStallT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -34149,8 +34149,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO2.FullStall.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -34201,8 +34201,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO2.FullStall.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -34633,8 +34633,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO2.IntlkTrip.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -34685,8 +34685,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO2.IntlkTrip.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -35013,8 +35013,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO2.IOFault.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -35065,8 +35065,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO2.IOFault.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -36157,8 +36157,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO2.TransitStall.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -36209,8 +36209,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO2.TransitStall.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -36301,8 +36301,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_Vlv_SO2.Wrk_Fault"
   - Name: Wrk_FullStallT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -36385,8 +36385,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_Vlv_SO2.Wrk_OpenFdbk"
   - Name: Wrk_SimCloseT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -36429,8 +36429,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO2.Wrk_SimCloseT.TT"
   - Name: Wrk_SimOpenT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -36473,8 +36473,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO2.Wrk_SimOpenT.TT"
   - Name: Wrk_TransitStallT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -37182,8 +37182,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO2_Tk10.FullStall.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -37234,8 +37234,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO2_Tk10.FullStall.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -37666,8 +37666,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO2_Tk10.IntlkTrip.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -37718,8 +37718,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO2_Tk10.IntlkTrip.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -38046,8 +38046,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO2_Tk10.IOFault.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -38098,8 +38098,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO2_Tk10.IOFault.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -39190,8 +39190,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO2_Tk10.TransitStall.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -39242,8 +39242,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO2_Tk10.TransitStall.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -39334,8 +39334,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_Vlv_SO2_Tk10.Wrk_Fault"
   - Name: Wrk_FullStallT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -39418,8 +39418,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_Vlv_SO2_Tk10.Wrk_OpenFdbk"
   - Name: Wrk_SimCloseT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -39462,8 +39462,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO2_Tk10.Wrk_SimCloseT.TT"
   - Name: Wrk_SimOpenT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -39506,8 +39506,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO2_Tk10.Wrk_SimOpenT.TT"
   - Name: Wrk_TransitStallT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -40232,8 +40232,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO3.FullStall.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -40284,8 +40284,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO3.FullStall.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -40716,8 +40716,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO3.IntlkTrip.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -40768,8 +40768,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO3.IntlkTrip.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -41096,8 +41096,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO3.IOFault.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -41148,8 +41148,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO3.IOFault.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -42240,8 +42240,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO3.TransitStall.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -42292,8 +42292,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO3.TransitStall.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -42384,8 +42384,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_Vlv_SO3.Wrk_Fault"
   - Name: Wrk_FullStallT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -42468,8 +42468,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_Vlv_SO3.Wrk_OpenFdbk"
   - Name: Wrk_SimCloseT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -42512,8 +42512,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO3.Wrk_SimCloseT.TT"
   - Name: Wrk_SimOpenT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -42556,8 +42556,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO3.Wrk_SimOpenT.TT"
   - Name: Wrk_TransitStallT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -43265,8 +43265,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO3_Tk10.FullStall.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -43317,8 +43317,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO3_Tk10.FullStall.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -43749,8 +43749,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO3_Tk10.IntlkTrip.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -43801,8 +43801,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO3_Tk10.IntlkTrip.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -44129,8 +44129,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO3_Tk10.IOFault.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -44181,8 +44181,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO3_Tk10.IOFault.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -45273,8 +45273,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO3_Tk10.TransitStall.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -45325,8 +45325,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO3_Tk10.TransitStall.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -45417,8 +45417,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_Vlv_SO3_Tk10.Wrk_Fault"
   - Name: Wrk_FullStallT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -45501,8 +45501,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_Vlv_SO3_Tk10.Wrk_OpenFdbk"
   - Name: Wrk_SimCloseT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -45545,8 +45545,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO3_Tk10.Wrk_SimCloseT.TT"
   - Name: Wrk_SimOpenT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -45589,8 +45589,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO3_Tk10.Wrk_SimOpenT.TT"
   - Name: Wrk_TransitStallT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -46315,8 +46315,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO4.FullStall.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -46367,8 +46367,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO4.FullStall.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -46799,8 +46799,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO4.IntlkTrip.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -46851,8 +46851,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO4.IntlkTrip.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -47179,8 +47179,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO4.IOFault.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -47231,8 +47231,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO4.IOFault.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -48323,8 +48323,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO4.TransitStall.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -48375,8 +48375,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO4.TransitStall.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -48467,8 +48467,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_Vlv_SO4.Wrk_Fault"
   - Name: Wrk_FullStallT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -48551,8 +48551,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_Vlv_SO4.Wrk_OpenFdbk"
   - Name: Wrk_SimCloseT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -48595,8 +48595,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO4.Wrk_SimCloseT.TT"
   - Name: Wrk_SimOpenT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -48639,8 +48639,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO4.Wrk_SimOpenT.TT"
   - Name: Wrk_TransitStallT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -49348,8 +49348,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO4_Tk10.FullStall.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -49400,8 +49400,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO4_Tk10.FullStall.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -49832,8 +49832,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO4_Tk10.IntlkTrip.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -49884,8 +49884,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO4_Tk10.IntlkTrip.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -50212,8 +50212,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO4_Tk10.IOFault.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -50264,8 +50264,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO4_Tk10.IOFault.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -51356,8 +51356,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO4_Tk10.TransitStall.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -51408,8 +51408,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO4_Tk10.TransitStall.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -51500,8 +51500,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_Vlv_SO4_Tk10.Wrk_Fault"
   - Name: Wrk_FullStallT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -51584,8 +51584,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_Vlv_SO4_Tk10.Wrk_OpenFdbk"
   - Name: Wrk_SimCloseT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -51628,8 +51628,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO4_Tk10.Wrk_SimCloseT.TT"
   - Name: Wrk_SimOpenT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -51672,8 +51672,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_Vlv_SO4_Tk10.Wrk_SimOpenT.TT"
   - Name: Wrk_TransitStallT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -52678,8 +52678,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1.DriveFault.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -52730,8 +52730,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1.DriveFault.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -53178,8 +53178,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1.FailToStart.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -53230,8 +53230,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1.FailToStart.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -53558,8 +53558,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1.FailToStop.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -53610,8 +53610,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1.FailToStop.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -54154,8 +54154,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1.IntlkTrip.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -54206,8 +54206,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1.IntlkTrip.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -54534,8 +54534,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1.IOFault.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -54586,8 +54586,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1.IOFault.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -55754,8 +55754,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_VSD_1.Val_SpeedRef"
   - Name: Wrk_AccelT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -55806,8 +55806,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_VSD_1.Wrk_Bypass"
   - Name: Wrk_DecelT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -55914,8 +55914,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_VSD_1.Wrk_ResetONS"
   - Name: Wrk_ResetT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -55990,8 +55990,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_VSD_1.Wrk_SpeedRef"
   - Name: Wrk_StartT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -56034,8 +56034,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1.Wrk_StartT.TT"
   - Name: Wrk_StopT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -57015,8 +57015,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk10.DriveFault.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -57067,8 +57067,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk10.DriveFault.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -57515,8 +57515,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk10.FailToStart.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -57567,8 +57567,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk10.FailToStart.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -57895,8 +57895,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk10.FailToStop.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -57947,8 +57947,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk10.FailToStop.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -58491,8 +58491,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk10.IntlkTrip.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -58543,8 +58543,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk10.IntlkTrip.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -58871,8 +58871,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk10.IOFault.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -58923,8 +58923,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk10.IOFault.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -60091,8 +60091,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_VSD_1_Tk10.Val_SpeedRef"
   - Name: Wrk_AccelT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -60143,8 +60143,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_VSD_1_Tk10.Wrk_Bypass"
   - Name: Wrk_DecelT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -60251,8 +60251,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_VSD_1_Tk10.Wrk_ResetONS"
   - Name: Wrk_ResetT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -60327,8 +60327,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_VSD_1_Tk10.Wrk_SpeedRef"
   - Name: Wrk_StartT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -60371,8 +60371,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk10.Wrk_StartT.TT"
   - Name: Wrk_StopT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -61362,8 +61362,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk20.DriveFault.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -61414,8 +61414,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk20.DriveFault.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -61862,8 +61862,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk20.FailToStart.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -61914,8 +61914,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk20.FailToStart.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -62242,8 +62242,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk20.FailToStop.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -62294,8 +62294,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk20.FailToStop.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -62838,8 +62838,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk20.IntlkTrip.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -62890,8 +62890,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk20.IntlkTrip.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -63218,8 +63218,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk20.IOFault.Wrk_Alm"
     - Name: Wrk_AlmMinOnT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -63270,8 +63270,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk20.IOFault.Wrk_Inhibited"
     - Name: Wrk_MinDurationT
-      Type: ns=49;TIMER
-      DataType: ns=49;TIMER
+      Type: ns=55;TIMER
+      DataType: ns=55;TIMER
       Children:
       - Name: ACC
         Type: RAEtherNetIPTag
@@ -64438,8 +64438,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_VSD_1_Tk20.Val_SpeedRef"
   - Name: Wrk_AccelT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -64490,8 +64490,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_VSD_1_Tk20.Wrk_Bypass"
   - Name: Wrk_DecelT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -64598,8 +64598,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_VSD_1_Tk20.Wrk_ResetONS"
   - Name: Wrk_ResetT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -64674,8 +64674,8 @@ Children:
       DataType: String
       Value: "Program:EOI_Data1.CM_VSD_1_Tk20.Wrk_SpeedRef"
   - Name: Wrk_StartT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -64718,8 +64718,8 @@ Children:
         DataType: String
         Value: "Program:EOI_Data1.CM_VSD_1_Tk20.Wrk_StartT.TT"
   - Name: Wrk_StopT
-    Type: ns=49;TIMER
-    DataType: ns=49;TIMER
+    Type: ns=55;TIMER
+    DataType: ns=55;TIMER
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag

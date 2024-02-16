@@ -303,10 +303,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "I26"
-- Name: ns=49;ScatteredREALs3
+- Name: ns=55;ScatteredREALs3
   Id: g=6c602a081253fc80718de1442af449f3
   Supertype: TagStructure
-  DataType: ns=49;ScatteredREALs3
+  DataType: ns=55;ScatteredREALs3
   ValueRank: Any
   Children:
   - Name: R00
@@ -835,10 +835,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Tag06"
-- Name: ns=49;ScatteredSTRINGs3
+- Name: ns=55;ScatteredSTRINGs3
   Id: g=179d72219cc8d7c03852f67659255511
   Supertype: TagStructure
-  DataType: ns=49;ScatteredSTRINGs3
+  DataType: ns=55;ScatteredSTRINGs3
   ValueRank: Any
   Children:
   - Name: S00
@@ -1917,10 +1917,10 @@ Children:
                 Type: BaseDataVariableType
                 DataType: String
                 Value: "L5"
-- Name: ns=49;ScreenToScrew_Expected_Type043
+- Name: ns=55;ScreenToScrew_Expected_Type043
   Id: g=c9988cbc9160dae63b2cc6d2cb717d65
   Supertype: TagStructure
-  DataType: ns=49;ScreenToScrew_Expected_Type043
+  DataType: ns=55;ScreenToScrew_Expected_Type043
   ValueRank: Any
   Children:
   - Name: Tag00
@@ -2223,10 +2223,10 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "L5"
-- Name: ns=49;HB_EOI3
+- Name: ns=55;HB_EOI3
   Id: g=cc02cf51ed1c70dc7f56695c7f8cc58b
   Supertype: TagStructure
-  DataType: ns=49;HB_EOI3
+  DataType: ns=55;HB_EOI3
   ValueRank: Any
   Children:
   - Name: HB1
@@ -2262,8 +2262,8 @@ Children:
       DataType: String
       Value: "ONS"
   - Name: Timer
-    Type: ns=49;TIMER3
-    DataType: ns=49;TIMER3
+    Type: ns=55;TIMER3
+    DataType: ns=55;TIMER3
     Children:
     - Name: ACC
       Type: RAEtherNetIPTag
@@ -2859,10 +2859,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "TRIP_Input"
-- Name: ns=49;TIMER3
+- Name: ns=55;TIMER3
   Id: g=16850def9ab4331892df74e0e8179760
   Supertype: TagStructure
-  DataType: ns=49;TIMER3
+  DataType: ns=55;TIMER3
   ValueRank: Any
   Children:
   - Name: ACC

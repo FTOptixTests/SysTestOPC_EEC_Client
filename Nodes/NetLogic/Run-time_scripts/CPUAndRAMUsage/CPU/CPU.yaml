@@ -35,7 +35,7 @@ Children:
     Type: MethodInvocation
     Children:
     - Class: Reference
-      Target: ns=10;i=98
+      Target: ns=16;i=98
       Direction: Forward
     - Name: ObjectPointer
       Type: NodePointer

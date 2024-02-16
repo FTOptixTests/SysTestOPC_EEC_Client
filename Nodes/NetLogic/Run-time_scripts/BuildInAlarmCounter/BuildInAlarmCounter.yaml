@@ -36,7 +36,7 @@ Children:
         - Name: MethodContainer1
           Type: BaseObjectType
           Children:
-          - Name: ns=10;ObjectPointer
+          - Name: ns=16;ObjectPointer
             Type: NodePointer
             DataType: NodeId
             Children:
@@ -53,7 +53,7 @@ Children:
                 Type: BaseVariableType
                 DataType: DynamicLinkMode
                 Value: 2
-          - Name: ns=10;Method
+          - Name: ns=16;Method
             Type: BaseDataVariableType
             DataType: String
             Value: "Set"
@@ -63,7 +63,7 @@ Children:
             - Name: VariableToModify
               Type: BaseDataVariableType
               DataType: VariablePointer
-              Description: {"NamespaceIndex":10,"TextId":"SetVariableToModifyDescription"}
+              Description: {"NamespaceIndex":16,"TextId":"SetVariableToModifyDescription"}
               Children:
               - Name: KeyValueConverter1
                 Type: ValueMapConverter
@@ -90,7 +90,7 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:S30_DBA/UniqoActiveAlarmsEOI1"
+                      Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:S30_DBA/UniqoActiveAlarmsEOI1"
                   - Name: Pair1
                     Type: ValueMapPair
                     Children:
@@ -101,7 +101,7 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:S30_DBA/UniqoActiveAlarmsEOI2"
+                      Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:S30_DBA/UniqoActiveAlarmsEOI2"
                   - Name: Pair2
                     Type: ValueMapPair
                     Children:
@@ -112,7 +112,7 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:S30_DBA/UniqoActiveAlarmsEOI3"
+                      Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:S30_DBA/UniqoActiveAlarmsEOI3"
                   - Name: Pair3
                     Type: ValueMapPair
                     Children:
@@ -123,11 +123,11 @@ Children:
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: "/Objects/SysTestOPCClient/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:S30_DBA/UniqoActiveAlarmsEOI4"
+                      Value: "/Objects/SysTestOPC_EEC_Client/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:S30_DBA/UniqoActiveAlarmsEOI4"
             - Name: Value
               Type: BaseDataVariableType
               DataType: BaseDataType
-              Description: {"NamespaceIndex":10,"TextId":"SetValueDescription"}
+              Description: {"NamespaceIndex":16,"TextId":"SetValueDescription"}
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
@@ -136,7 +136,7 @@ Children:
             - Name: ArrayIndex
               Type: BaseDataVariableType
               DataType: UInt32
-              Description: {"NamespaceIndex":10,"TextId":"SetArrayIndexDescription"}
+              Description: {"NamespaceIndex":16,"TextId":"SetArrayIndexDescription"}
               ValueRank: ScalarOrOneDimension
       - Name: EventArguments
         Type: VariableValueChangedEvent
