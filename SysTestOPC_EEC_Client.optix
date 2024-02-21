@@ -65,11 +65,11 @@ Project:
   18:
    Uri: 'urn:FTOptix:UI'
    Module: FTOptix.UI
-   Version: 12.3
+   Version: 12.4
   19:
    Uri: 'urn:FTOptix:UI:Net'
    Module: FTOptix.UI.Net
-   Version: 12.3
+   Version: 12.4
   20:
    Uri: 'urn:FTOptix:DataLogger'
    Module: FTOptix.DataLogger
@@ -129,15 +129,15 @@ Project:
   34:
    Uri: 'urn:FTOptix:CommunicationDriver'
    Module: FTOptix.CommunicationDriver
-   Version: 2.0
+   Version: 2.1
   35:
    Uri: 'urn:FTOptix:CommunicationDriver:Net'
    Module: FTOptix.CommunicationDriver.Net
-   Version: 2.0
+   Version: 2.1
   36:
    Uri: 'urn:FTOptix:HMIProject'
    Module: FTOptix.HMIProject
-   Version: 5.3
+   Version: 6.0
   37:
    Uri: 'urn:FTOptix:HMIProject:Net'
    Module: FTOptix.HMIProject.Net
@@ -211,10 +211,10 @@ Project:
    Module: FTOptix.RAEtherNetIP.Net
    Version: 2.1
  Statistics:
-  TotalNodeCount: 110263
-  Objects: 17329
+  TotalNodeCount: 109886
+  Objects: 17315
   ObjectTypes: 130
-  Variables: 92500
+  Variables: 92137
   VariableTypes: 123
   DataTypes: 114
   Methods: 67
