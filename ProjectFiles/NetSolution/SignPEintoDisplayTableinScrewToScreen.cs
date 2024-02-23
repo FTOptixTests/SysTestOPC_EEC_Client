@@ -33,7 +33,7 @@ public class SignPEintoDisplayTableinScrewToScreen : BaseNetLogic
     //SysTestBaseApp/UI/Screens/Screen004_Read_DINT
     //SysTestBaseApp/Model/Variables/ScrewToScreen/Int/IntPE1SumOpacity
     //SysTestBaseApp/UI/Screens/Screen028_read_STRING/Layout
-    public string ScreenPath = "UI/Screens/Screen038_read_ARRAY/Layout";
+    public string ScreenPath = "UI/Screens/Screen055_Read_REAL_OPC";
      public string PopUp = "UI/Screens/Popup";   
     //SysTestBaseApp/UI/Screens/Screen038_read_ARRAY/Layout
     //SysTestBaseApp/UI/Screens/Screen004_Read_DINT/Layout
@@ -76,15 +76,19 @@ public class SignPEintoDisplayTableinScrewToScreen : BaseNetLogic
         {
             for (int i = 1; i<26; i++)
             {
-                DynamicLinkPath =ScreenPath + $"/Photoeyes/PhotoEyeBarScrewToScreen_type1/Rectangle{j}/Opacity/KeyValueConverter1/Source/ExpressionEvaluator1/Source{i}/DynamicLink";
-                TextBoxPath =PopUp + $"/ARRAY/TypeValueGroup1/TypeValueDispay{j}/Rectangle1/TextBox{i}/Text/DynamicLink";
+                DynamicLinkPath =ScreenPath + $"/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/Rectangle{j}/Opacity/KeyValueConverter1/Source/ExpressionEvaluator1/Source{i}/DynamicLink";
+                TextBoxPath =PopUp + $"/REAL_OPC/TypeValueGroup1/TypeValueDispay{j}/Rectangle1/TextBox{i}/Text/DynamicLink";
+                Log.Info(Project.Current.GetVariable(TextBoxPath).Value );
+                Log.Info(Project.Current.GetVariable(DynamicLinkPath).Value);
                 Project.Current.GetVariable(TextBoxPath).Value = Project.Current.GetVariable(DynamicLinkPath).Value;
+                Log.Info(i.ToString());
+               
 
             }
             for (int k = 1; k<26; k++)
             {
-                DynamicLinkPath = ScreenPath + $"/Photoeyes/PhotoEyeBarScrewToScreen_type1/Rectangle{j}/FillColor/KeyValueConverter1/Source/ExpressionEvaluator1/Source{k}/DynamicLink";
-                TextBoxPath = PopUp + $"/ARRAY/TypeValueGroup1/TypeValueDispay{j+4}/Rectangle1/TextBox{k}/Text/DynamicLink";
+                DynamicLinkPath = ScreenPath + $"/Layout/Photoeyes/PhotoEyeBarScrewToScreen_type1/Rectangle{j}/FillColor/KeyValueConverter1/Source/ExpressionEvaluator1/Source{k}/DynamicLink";
+                TextBoxPath = PopUp + $"/REAL_OPC/TypeValueGroup1/TypeValueDispay{j+4}/Rectangle1/TextBox{k}/Text/DynamicLink";
                 Project.Current.GetVariable(TextBoxPath).Value = Project.Current.GetVariable(DynamicLinkPath).Value;
 
             }    

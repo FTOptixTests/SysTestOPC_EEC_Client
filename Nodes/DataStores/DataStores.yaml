@@ -1054,7 +1054,7 @@ Children:
   - Name: Password
     Type: PropertyType
     DataType: Password
-    SecretValue: QZY8qLQv3QQSxa/nHAlnhyv2jMQO0xeGS7GZl4xzTMRVk4ErUg==
+    Value: "123qweASD"
   - Name: MaxColumnNameLength
     Type: BaseDataVariableType
     DataType: UInt32

@@ -211,15 +211,15 @@ Project:
    Module: FTOptix.RAEtherNetIP.Net
    Version: 2.1
  Statistics:
-  TotalNodeCount: 109886
-  Objects: 17315
-  ObjectTypes: 130
-  Variables: 92137
+  TotalNodeCount: 111773
+  Objects: 17865
+  ObjectTypes: 132
+  Variables: 93471
   VariableTypes: 123
   DataTypes: 114
-  Methods: 67
-  References: 336
+  Methods: 68
+  References: 338
   ReferenceTypes: 0
-  Files: 157
+  Files: 158
  Nodes:
  - File: Nodes/SysTestOPC_EEC_Client.yaml
