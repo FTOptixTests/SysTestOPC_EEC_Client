@@ -105,11 +105,11 @@ Project:
   28:
    Uri: 'urn:FTOptix:OPCUAClient'
    Module: FTOptix.OPCUAClient
-   Version: 1.1
+   Version: 1.2
   29:
    Uri: 'urn:FTOptix:OPCUAClient:Net'
    Module: FTOptix.OPCUAClient.Net
-   Version: 1.0
+   Version: 1.1
   30:
    Uri: 'urn:FTOptix:System'
    Module: FTOptix.System
@@ -137,7 +137,7 @@ Project:
   36:
    Uri: 'urn:FTOptix:HMIProject'
    Module: FTOptix.HMIProject
-   Version: 6.0
+   Version: 6.1
   37:
    Uri: 'urn:FTOptix:HMIProject:Net'
    Module: FTOptix.HMIProject.Net
@@ -205,18 +205,18 @@ Project:
   53:
    Uri: 'urn:FTOptix:RAEtherNetIP'
    Module: FTOptix.RAEtherNetIP
-   Version: 2.1
+   Version: 2.2
   54:
    Uri: 'urn:FTOptix:RAEtherNetIP:Net'
    Module: FTOptix.RAEtherNetIP.Net
    Version: 2.1
  Statistics:
-  TotalNodeCount: 111325
-  Objects: 17865
+  TotalNodeCount: 112274
+  Objects: 17894
   ObjectTypes: 132
-  Variables: 93023
-  VariableTypes: 123
-  DataTypes: 114
+  Variables: 93939
+  VariableTypes: 125
+  DataTypes: 116
   Methods: 68
   References: 338
   ReferenceTypes: 0
