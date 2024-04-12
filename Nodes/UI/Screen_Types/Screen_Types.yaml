@@ -349,6 +349,33 @@ Children:
             - Name: MethodsToCall
               Type: BaseObjectType
               Children:
+              - Name: MethodContainer2
+                Type: BaseObjectType
+                Children:
+                - Name: ns=16;ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/SysTestOPC_EEC_Client/NetLogic/Run-time scripts/CustomEventLogger/LogButtonClick"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: ns=16;Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "LogMessageButtonNextScreen"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: buttonPath
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../..@BrowsePath"
               - Name: MethodContainer1
                 Type: BaseObjectType
                 Children:
@@ -1052,33 +1079,6 @@ Children:
                     DataType: NodeId
                     Description: {"NamespaceIndex":18,"TextId":"ChangePanelAliasNodeDescription"}
                     ValueRank: ScalarOrOneDimension
-              - Name: MethodContainer2
-                Type: BaseObjectType
-                Children:
-                - Name: ns=16;ObjectPointer
-                  Type: NodePointer
-                  DataType: NodeId
-                  Value: "/Objects/SysTestOPC_EEC_Client/NetLogic/Run-time scripts/CustomEventLogger/LogButtonClick"
-                  Children:
-                  - Name: Kind
-                    Type: PropertyType
-                    DataType: NodeId
-                    Value: "/Types/ObjectTypes/BaseObjectType"
-                - Name: ns=16;Method
-                  Type: BaseDataVariableType
-                  DataType: String
-                  Value: "LogMessageButtonNextScreen"
-                - Name: InputArguments
-                  Type: BaseObjectType
-                  Children:
-                  - Name: buttonPath
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "../../../../..@BrowsePath"
             - Name: EventArguments
               Type: MouseDownEvent
               Children:

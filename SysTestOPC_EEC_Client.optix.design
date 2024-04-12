@@ -57,7 +57,7 @@ Project:
   17:
    Uri: 'urn:FTOptix:CoreBase'
    Module: FTOptix.CoreBase
-   Version: 3.1
+   Version: 4.0
   18:
    Uri: 'urn:FTOptix:CoreBase:Net'
    Module: FTOptix.CoreBase.Net

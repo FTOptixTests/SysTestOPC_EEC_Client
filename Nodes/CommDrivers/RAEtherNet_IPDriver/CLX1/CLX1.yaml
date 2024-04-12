@@ -5,7 +5,7 @@ Children:
 - Name: Route
   Type: BaseDataVariableType
   DataType: String
-  Value: "192.168.101.201\\Backplane\\0"
+  Value: "Backplane\\0"
 - Name: StationStatusVariables
   Type: PropertyGroup
   Children:

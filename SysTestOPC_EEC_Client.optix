@@ -57,7 +57,7 @@ Project:
   16:
    Uri: 'urn:FTOptix:CoreBase'
    Module: FTOptix.CoreBase
-   Version: 3.1
+   Version: 4.0
   17:
    Uri: 'urn:FTOptix:CoreBase:Net'
    Module: FTOptix.CoreBase.Net
@@ -205,16 +205,16 @@ Project:
   53:
    Uri: 'urn:FTOptix:RAEtherNetIP'
    Module: FTOptix.RAEtherNetIP
-   Version: 2.2
+   Version: 3.0
   54:
    Uri: 'urn:FTOptix:RAEtherNetIP:Net'
    Module: FTOptix.RAEtherNetIP.Net
    Version: 2.1
  Statistics:
-  TotalNodeCount: 112274
+  TotalNodeCount: 112278
   Objects: 17894
   ObjectTypes: 132
-  Variables: 93939
+  Variables: 93943
   VariableTypes: 125
   DataTypes: 116
   Methods: 68

@@ -99,7 +99,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-      - Name: Pairs
+      - Name: ns=16;Pairs
         Type: BaseObjectType
         ModellingRule: None
         Children:
