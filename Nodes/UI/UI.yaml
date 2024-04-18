@@ -1666,7 +1666,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "{PanelLoader1}/CurrentPanel@Pointer@BrowseName"
+                        Value: "{PanelLoader1}/CurrentPanel@BrowseName"
                 - Name: MethodContainer2
                   Type: BaseObjectType
                   Children:
